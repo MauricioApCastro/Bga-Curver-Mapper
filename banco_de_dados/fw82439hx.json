@@ -1,0 +1,1665 @@
+{
+    "chip_config": {
+        "colunas": 20,
+        "letras": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "R",
+            "T",
+            "U",
+            "V",
+            "W",
+            "Y"
+        ],
+        "vazio": [
+            {
+                "p1": "F13",
+                "p2": "H7"
+            },
+            {
+                "p1": "H6",
+                "p2": "P8"
+            },
+            {
+                "p1": "R8",
+                "p2": "N14"
+            },
+            {
+                "p1": "N15",
+                "p2": "G14"
+            },
+            {
+                "p1": "K16",
+                "p2": "K13"
+            },
+            {
+                "p1": "J13",
+                "p2": "M13"
+            }
+        ]
+    },
+    "pinagem": {
+        "V11": {
+            "sinal": "A3",
+            "tipo": "SIGNAL",
+            "detalhes": "A3\nI/O"
+        },
+        "Y11": {
+            "sinal": "A4",
+            "tipo": "SIGNAL",
+            "detalhes": "A4\nI/O"
+        },
+        "U8": {
+            "sinal": "A5",
+            "tipo": "SIGNAL",
+            "detalhes": "A5\nI/O"
+        },
+        "Y12": {
+            "sinal": "A6",
+            "tipo": "SIGNAL",
+            "detalhes": "A6\nI/O"
+        },
+        "Y8": {
+            "sinal": "A7",
+            "tipo": "SIGNAL",
+            "detalhes": "A7\nI/O"
+        },
+        "V8": {
+            "sinal": "A8",
+            "tipo": "SIGNAL",
+            "detalhes": "A8\nI/O"
+        },
+        "V7": {
+            "sinal": "A9",
+            "tipo": "SIGNAL",
+            "detalhes": "A9\nI/O"
+        },
+        "Y7": {
+            "sinal": "A10",
+            "tipo": "SIGNAL",
+            "detalhes": "A10\nI/O"
+        },
+        "W7": {
+            "sinal": "A11",
+            "tipo": "SIGNAL",
+            "detalhes": "A11\nI/O"
+        },
+        "U7": {
+            "sinal": "A12",
+            "tipo": "SIGNAL",
+            "detalhes": "A12\nI/O"
+        },
+        "Y6": {
+            "sinal": "A13",
+            "tipo": "SIGNAL",
+            "detalhes": "A13\nI/O"
+        },
+        "V6": {
+            "sinal": "A14",
+            "tipo": "SIGNAL",
+            "detalhes": "A14\nI/O"
+        },
+        "W6": {
+            "sinal": "A15",
+            "tipo": "SIGNAL",
+            "detalhes": "A15\nI/O"
+        },
+        "U6": {
+            "sinal": "A16",
+            "tipo": "SIGNAL",
+            "detalhes": "A16\nI/O"
+        },
+        "Y5": {
+            "sinal": "A17",
+            "tipo": "SIGNAL",
+            "detalhes": "A17\nI/O"
+        },
+        "W5": {
+            "sinal": "A18",
+            "tipo": "SIGNAL",
+            "detalhes": "A18\nI/O"
+        },
+        "V5": {
+            "sinal": "A19",
+            "tipo": "SIGNAL",
+            "detalhes": "A19\nI/O"
+        },
+        "U5": {
+            "sinal": "A20",
+            "tipo": "SIGNAL",
+            "detalhes": "A20\nI/O"
+        },
+        "V9": {
+            "sinal": "A21",
+            "tipo": "SIGNAL",
+            "detalhes": "A21\nI/O"
+        },
+        "U10": {
+            "sinal": "A22",
+            "tipo": "SIGNAL",
+            "detalhes": "A22\nI/O"
+        },
+        "U9": {
+            "sinal": "A23",
+            "tipo": "SIGNAL",
+            "detalhes": "A23\nI/O"
+        },
+        "W10": {
+            "sinal": "A24",
+            "tipo": "SIGNAL",
+            "detalhes": "A24\nI/O"
+        },
+        "W9": {
+            "sinal": "A25",
+            "tipo": "SIGNAL",
+            "detalhes": "A25\nI/O"
+        },
+        "V10": {
+            "sinal": "A26",
+            "tipo": "SIGNAL",
+            "detalhes": "A26\nI/O"
+        },
+        "Y9": {
+            "sinal": "A27",
+            "tipo": "SIGNAL",
+            "detalhes": "A27\nI/O"
+        },
+        "Y10": {
+            "sinal": "A28",
+            "tipo": "SIGNAL",
+            "detalhes": "A28\nI/O"
+        },
+        "U11": {
+            "sinal": "A29",
+            "tipo": "SIGNAL",
+            "detalhes": "A29\nI/O"
+        },
+        "W11": {
+            "sinal": "A30",
+            "tipo": "SIGNAL",
+            "detalhes": "A30\nI/O"
+        },
+        "W8": {
+            "sinal": "A31",
+            "tipo": "SIGNAL",
+            "detalhes": "A31\nI/O"
+        },
+        "A15": {
+            "sinal": "AD0",
+            "tipo": "SIGNAL",
+            "detalhes": "AD0\nI/O"
+        },
+        "A14": {
+            "sinal": "AD1",
+            "tipo": "SIGNAL",
+            "detalhes": "AD1\nI/O"
+        },
+        "B13": {
+            "sinal": "AD2",
+            "tipo": "SIGNAL",
+            "detalhes": "AD2\nI/O"
+        },
+        "A13": {
+            "sinal": "AD3",
+            "tipo": "SIGNAL",
+            "detalhes": "AD3\nI/O"
+        },
+        "C12": {
+            "sinal": "AD4",
+            "tipo": "SIGNAL",
+            "detalhes": "AD4\nI/O"
+        },
+        "B12": {
+            "sinal": "AD5",
+            "tipo": "SIGNAL",
+            "detalhes": "AD5\nI/O"
+        },
+        "A12": {
+            "sinal": "AD6",
+            "tipo": "SIGNAL",
+            "detalhes": "AD6\nI/O"
+        },
+        "C11": {
+            "sinal": "AD7",
+            "tipo": "SIGNAL",
+            "detalhes": "AD7\nI/O"
+        },
+        "A11": {
+            "sinal": "AD8",
+            "tipo": "SIGNAL",
+            "detalhes": "AD8\nI/O"
+        },
+        "C10": {
+            "sinal": "AD9",
+            "tipo": "SIGNAL",
+            "detalhes": "AD9\nI/O"
+        },
+        "B10": {
+            "sinal": "AD10",
+            "tipo": "SIGNAL",
+            "detalhes": "AD10\nI/O"
+        },
+        "A10": {
+            "sinal": "AD11",
+            "tipo": "SIGNAL",
+            "detalhes": "AD11\nI/O"
+        },
+        "C9": {
+            "sinal": "AD12",
+            "tipo": "SIGNAL",
+            "detalhes": "AD12\nI/O"
+        },
+        "B9": {
+            "sinal": "AD13",
+            "tipo": "SIGNAL",
+            "detalhes": "AD13\nI/O"
+        },
+        "A9": {
+            "sinal": "AD14",
+            "tipo": "SIGNAL",
+            "detalhes": "AD14\nI/O"
+        },
+        "C8": {
+            "sinal": "AD15",
+            "tipo": "SIGNAL",
+            "detalhes": "AD15\nI/O"
+        },
+        "C7": {
+            "sinal": "AD16",
+            "tipo": "SIGNAL",
+            "detalhes": "AD16\nI/O"
+        },
+        "B7": {
+            "sinal": "AD17",
+            "tipo": "SIGNAL",
+            "detalhes": "AD17\nI/O"
+        },
+        "A7": {
+            "sinal": "AD18",
+            "tipo": "SIGNAL",
+            "detalhes": "AD18\nI/O"
+        },
+        "C6": {
+            "sinal": "AD19",
+            "tipo": "SIGNAL",
+            "detalhes": "AD19\nI/O"
+        },
+        "B6": {
+            "sinal": "AD20",
+            "tipo": "SIGNAL",
+            "detalhes": "AD20\nI/O"
+        },
+        "A6": {
+            "sinal": "AD21",
+            "tipo": "SIGNAL",
+            "detalhes": "AD21\nI/O"
+        },
+        "C5": {
+            "sinal": "AD22",
+            "tipo": "SIGNAL",
+            "detalhes": "AD22\nI/O"
+        },
+        "B5": {
+            "sinal": "AD23",
+            "tipo": "SIGNAL",
+            "detalhes": "AD23\nI/O"
+        },
+        "D6": {
+            "sinal": "AD24",
+            "tipo": "SIGNAL",
+            "detalhes": "AD24\nI/O"
+        },
+        "C4": {
+            "sinal": "AD25",
+            "tipo": "SIGNAL",
+            "detalhes": "AD25\nI/O"
+        },
+        "B4": {
+            "sinal": "AD26",
+            "tipo": "SIGNAL",
+            "detalhes": "AD26\nI/O"
+        },
+        "A4": {
+            "sinal": "AD27",
+            "tipo": "SIGNAL",
+            "detalhes": "AD27\nI/O"
+        },
+        "B3": {
+            "sinal": "AD28",
+            "tipo": "SIGNAL",
+            "detalhes": "AD28\nI/O"
+        },
+        "A3": {
+            "sinal": "AD29",
+            "tipo": "SIGNAL",
+            "detalhes": "AD29\nI/O"
+        },
+        "B2": {
+            "sinal": "AD30",
+            "tipo": "SIGNAL",
+            "detalhes": "AD30\nI/O"
+        },
+        "A2": {
+            "sinal": "AD31",
+            "tipo": "SIGNAL",
+            "detalhes": "AD31\nI/O"
+        },
+        "T5": {
+            "sinal": "ADS#",
+            "tipo": "SIGNAL",
+            "detalhes": "ADS#\nI"
+        },
+        "L5": {
+            "sinal": "AHOLD",
+            "tipo": "SIGNAL",
+            "detalhes": "AHOLD\nO"
+        },
+        "K2": {
+            "sinal": "BE0#",
+            "tipo": "SIGNAL",
+            "detalhes": "BE0#\nI"
+        },
+        "K3": {
+            "sinal": "BE1#",
+            "tipo": "SIGNAL",
+            "detalhes": "BE1#\nI"
+        },
+        "K4": {
+            "sinal": "BE2#",
+            "tipo": "SIGNAL",
+            "detalhes": "BE2#\nI"
+        },
+        "L1": {
+            "sinal": "BE3#",
+            "tipo": "SIGNAL",
+            "detalhes": "BE3#\nI"
+        },
+        "L2": {
+            "sinal": "BE4#",
+            "tipo": "SIGNAL",
+            "detalhes": "BE4#\nI"
+        },
+        "L3": {
+            "sinal": "BE5#",
+            "tipo": "SIGNAL",
+            "detalhes": "BE5#\nI"
+        },
+        "L4": {
+            "sinal": "BE6#",
+            "tipo": "SIGNAL",
+            "detalhes": "BE6#\nI"
+        },
+        "M1": {
+            "sinal": "BE7#",
+            "tipo": "SIGNAL",
+            "detalhes": "BE7#\nI"
+        },
+        "P5": {
+            "sinal": "BOFF#",
+            "tipo": "SIGNAL",
+            "detalhes": "BOFF#\nO"
+        },
+        "M5": {
+            "sinal": "BRDY#",
+            "tipo": "SIGNAL",
+            "detalhes": "BRDY#\nO"
+        },
+        "Y17": {
+            "sinal": "BWE#",
+            "tipo": "SIGNAL",
+            "detalhes": "BWE#\nO"
+        },
+        "B11": {
+            "sinal": "C/BE0#",
+            "tipo": "SIGNAL",
+            "detalhes": "C/BE0#\nI/O"
+        },
+        "B8": {
+            "sinal": "C/BE1#",
+            "tipo": "SIGNAL",
+            "detalhes": "C/BE1#\nI/O"
+        },
+        "A8": {
+            "sinal": "C/BE2#",
+            "tipo": "SIGNAL",
+            "detalhes": "C/BE2#\nI/O"
+        },
+        "A5": {
+            "sinal": "C/BE3#",
+            "tipo": "SIGNAL",
+            "detalhes": "C/BE3#\nI/O"
+        },
+        "J5": {
+            "sinal": "CACHE#",
+            "tipo": "SIGNAL",
+            "detalhes": "CACHE#\nO"
+        },
+        "W15": {
+            "sinal": "CADS#",
+            "tipo": "SIGNAL",
+            "detalhes": "CADS#\nO"
+        },
+        "V15": {
+            "sinal": "CADV#",
+            "tipo": "SIGNAL",
+            "detalhes": "CADV#\nO"
+        },
+        "J17": {
+            "sinal": "CAS0#",
+            "tipo": "SIGNAL",
+            "detalhes": "CAS0#\nO"
+        },
+        "K17": {
+            "sinal": "CAS1#",
+            "tipo": "SIGNAL",
+            "detalhes": "CAS1#\nO"
+        },
+        "H17": {
+            "sinal": "CAS2#",
+            "tipo": "SIGNAL",
+            "detalhes": "CAS2#\nO"
+        },
+        "L17": {
+            "sinal": "CAS3#",
+            "tipo": "SIGNAL",
+            "detalhes": "CAS3#\nO"
+        },
+        "H16": {
+            "sinal": "CAS4#",
+            "tipo": "SIGNAL",
+            "detalhes": "CAS4#\nO"
+        },
+        "J16": {
+            "sinal": "CAS5#",
+            "tipo": "SIGNAL",
+            "detalhes": "CAS5#\nO"
+        },
+        "G16": {
+            "sinal": "CAS6#",
+            "tipo": "SIGNAL",
+            "detalhes": "CAS6#\nO"
+        },
+        "L16": {
+            "sinal": "CAS7#",
+            "tipo": "SIGNAL",
+            "detalhes": "CAS7#\nO"
+        },
+        "W16": {
+            "sinal": "CCS#",
+            "tipo": "SIGNAL",
+            "detalhes": "CCS#\nO"
+        },
+        "U15": {
+            "sinal": "COE#",
+            "tipo": "SIGNAL",
+            "detalhes": "COE#\nO"
+        },
+        "T7": {
+            "sinal": "D/C#",
+            "tipo": "SIGNAL",
+            "detalhes": "D/C#\nI"
+        },
+        "E9": {
+            "sinal": "DEVSEL#",
+            "tipo": "SIGNAL",
+            "detalhes": "DEVSEL#\nI/O"
+        },
+        "R5": {
+            "sinal": "EADS#",
+            "tipo": "SIGNAL",
+            "detalhes": "EADS#\nO"
+        },
+        "E6": {
+            "sinal": "FRAME#",
+            "tipo": "SIGNAL",
+            "detalhes": "FRAME#\nI/O"
+        },
+        "D8": {
+            "sinal": "GNT0#",
+            "tipo": "SIGNAL",
+            "detalhes": "GNT0#\nI"
+        },
+        "D10": {
+            "sinal": "GNT1#",
+            "tipo": "SIGNAL",
+            "detalhes": "GNT1#\nI"
+        },
+        "D12": {
+            "sinal": "GNT2#",
+            "tipo": "SIGNAL",
+            "detalhes": "GNT2#\nI"
+        },
+        "D14": {
+            "sinal": "GNT3#",
+            "tipo": "SIGNAL",
+            "detalhes": "GNT3#\nI"
+        },
+        "Y16": {
+            "sinal": "GWE#",
+            "tipo": "SIGNAL",
+            "detalhes": "GWE#\nO"
+        },
+        "Y1": {
+            "sinal": "HD0",
+            "tipo": "SIGNAL",
+            "detalhes": "HD0\nI/O"
+        },
+        "Y3": {
+            "sinal": "HD1",
+            "tipo": "SIGNAL",
+            "detalhes": "HD1\nI/O"
+        },
+        "Y2": {
+            "sinal": "HD2",
+            "tipo": "SIGNAL",
+            "detalhes": "HD2\nI/O"
+        },
+        "Y4": {
+            "sinal": "HD3",
+            "tipo": "SIGNAL",
+            "detalhes": "HD3\nI/O"
+        },
+        "W1": {
+            "sinal": "HD4",
+            "tipo": "SIGNAL",
+            "detalhes": "HD4\nI/O"
+        },
+        "W2": {
+            "sinal": "HD5",
+            "tipo": "SIGNAL",
+            "detalhes": "HD5\nI/O"
+        },
+        "V1": {
+            "sinal": "HD6",
+            "tipo": "SIGNAL",
+            "detalhes": "HD6\nI/O"
+        },
+        "R1": {
+            "sinal": "HD7",
+            "tipo": "SIGNAL",
+            "detalhes": "HD7\nI/O"
+        },
+        "U1": {
+            "sinal": "HD8",
+            "tipo": "SIGNAL",
+            "detalhes": "HD8\nI/O"
+        },
+        "W3": {
+            "sinal": "HD9",
+            "tipo": "SIGNAL",
+            "detalhes": "HD9\nI/O"
+        },
+        "V3": {
+            "sinal": "HD10",
+            "tipo": "SIGNAL",
+            "detalhes": "HD10\nI/O"
+        },
+        "W4": {
+            "sinal": "HD11",
+            "tipo": "SIGNAL",
+            "detalhes": "HD11\nI/O"
+        },
+        "T1": {
+            "sinal": "HD12",
+            "tipo": "SIGNAL",
+            "detalhes": "HD12\nI/O"
+        },
+        "V4": {
+            "sinal": "HD13",
+            "tipo": "SIGNAL",
+            "detalhes": "HD13\nI/O"
+        },
+        "U3": {
+            "sinal": "HD14",
+            "tipo": "SIGNAL",
+            "detalhes": "HD14\nI/O"
+        },
+        "V2": {
+            "sinal": "HD15",
+            "tipo": "SIGNAL",
+            "detalhes": "HD15\nI/O"
+        },
+        "U4": {
+            "sinal": "HD16",
+            "tipo": "SIGNAL",
+            "detalhes": "HD16\nI/O"
+        },
+        "T3": {
+            "sinal": "HD17",
+            "tipo": "SIGNAL",
+            "detalhes": "HD17\nI/O"
+        },
+        "U2": {
+            "sinal": "HD18",
+            "tipo": "SIGNAL",
+            "detalhes": "HD18\nI/O"
+        },
+        "R3": {
+            "sinal": "HD19",
+            "tipo": "SIGNAL",
+            "detalhes": "HD19\nI/O"
+        },
+        "T4": {
+            "sinal": "HD20",
+            "tipo": "SIGNAL",
+            "detalhes": "HD20\nI/O"
+        },
+        "R2": {
+            "sinal": "HD21",
+            "tipo": "SIGNAL",
+            "detalhes": "HD21\nI/O"
+        },
+        "T2": {
+            "sinal": "HD22",
+            "tipo": "SIGNAL",
+            "detalhes": "HD22\nI/O"
+        },
+        "P1": {
+            "sinal": "HD23",
+            "tipo": "SIGNAL",
+            "detalhes": "HD23\nI/O"
+        },
+        "R4": {
+            "sinal": "HD24",
+            "tipo": "SIGNAL",
+            "detalhes": "HD24\nI/O"
+        },
+        "P3": {
+            "sinal": "HD25",
+            "tipo": "SIGNAL",
+            "detalhes": "HD25\nI/O"
+        },
+        "P2": {
+            "sinal": "HD26",
+            "tipo": "SIGNAL",
+            "detalhes": "HD26\nI/O"
+        },
+        "N1": {
+            "sinal": "HD27",
+            "tipo": "SIGNAL",
+            "detalhes": "HD27\nI/O"
+        },
+        "P4": {
+            "sinal": "HD28",
+            "tipo": "SIGNAL",
+            "detalhes": "HD28\nI/O"
+        },
+        "N3": {
+            "sinal": "HD29",
+            "tipo": "SIGNAL",
+            "detalhes": "HD29\nI/O"
+        },
+        "N2": {
+            "sinal": "HD30",
+            "tipo": "SIGNAL",
+            "detalhes": "HD30\nI/O"
+        },
+        "N4": {
+            "sinal": "HD31",
+            "tipo": "SIGNAL",
+            "detalhes": "HD31\nI/O"
+        },
+        "M3": {
+            "sinal": "HD32",
+            "tipo": "SIGNAL",
+            "detalhes": "HD32\nI/O"
+        },
+        "M2": {
+            "sinal": "HD33",
+            "tipo": "SIGNAL",
+            "detalhes": "HD33\nI/O"
+        },
+        "K1": {
+            "sinal": "HD34",
+            "tipo": "SIGNAL",
+            "detalhes": "HD34\nI/O"
+        },
+        "M4": {
+            "sinal": "HD35",
+            "tipo": "SIGNAL",
+            "detalhes": "HD35\nI/O"
+        },
+        "J2": {
+            "sinal": "HD36",
+            "tipo": "SIGNAL",
+            "detalhes": "HD36\nI/O"
+        },
+        "J1": {
+            "sinal": "HD37",
+            "tipo": "SIGNAL",
+            "detalhes": "HD37\nI/O"
+        },
+        "J4": {
+            "sinal": "HD38",
+            "tipo": "SIGNAL",
+            "detalhes": "HD38\nI/O"
+        },
+        "H1": {
+            "sinal": "HD39",
+            "tipo": "SIGNAL",
+            "detalhes": "HD39\nI/O"
+        },
+        "H2": {
+            "sinal": "HD40",
+            "tipo": "SIGNAL",
+            "detalhes": "HD40\nI/O"
+        },
+        "G2": {
+            "sinal": "HD41",
+            "tipo": "SIGNAL",
+            "detalhes": "HD41\nI/O"
+        },
+        "J3": {
+            "sinal": "HD42",
+            "tipo": "SIGNAL",
+            "detalhes": "HD42\nI/O"
+        },
+        "G4": {
+            "sinal": "HD43",
+            "tipo": "SIGNAL",
+            "detalhes": "HD43\nI/O"
+        },
+        "H4": {
+            "sinal": "HD44",
+            "tipo": "SIGNAL",
+            "detalhes": "HD44\nI/O"
+        },
+        "G1": {
+            "sinal": "HD45",
+            "tipo": "SIGNAL",
+            "detalhes": "HD45\nI/O"
+        },
+        "H3": {
+            "sinal": "HD46",
+            "tipo": "SIGNAL",
+            "detalhes": "HD46\nI/O"
+        },
+        "F2": {
+            "sinal": "HD47",
+            "tipo": "SIGNAL",
+            "detalhes": "HD47\nI/O"
+        },
+        "F1": {
+            "sinal": "HD48",
+            "tipo": "SIGNAL",
+            "detalhes": "HD48\nI/O"
+        },
+        "G3": {
+            "sinal": "HD49",
+            "tipo": "SIGNAL",
+            "detalhes": "HD49\nI/O"
+        },
+        "F4": {
+            "sinal": "HD50",
+            "tipo": "SIGNAL",
+            "detalhes": "HD50\nI/O"
+        },
+        "F3": {
+            "sinal": "HD51",
+            "tipo": "SIGNAL",
+            "detalhes": "HD51\nI/O"
+        },
+        "E1": {
+            "sinal": "HD52",
+            "tipo": "SIGNAL",
+            "detalhes": "HD52\nI/O"
+        },
+        "E4": {
+            "sinal": "HD53",
+            "tipo": "SIGNAL",
+            "detalhes": "HD53\nI/O"
+        },
+        "E2": {
+            "sinal": "HD54",
+            "tipo": "SIGNAL",
+            "detalhes": "HD54\nI/O"
+        },
+        "D1": {
+            "sinal": "HD55",
+            "tipo": "SIGNAL",
+            "detalhes": "HD55\nI/O"
+        },
+        "E3": {
+            "sinal": "HD56",
+            "tipo": "SIGNAL",
+            "detalhes": "HD56\nI/O"
+        },
+        "D3": {
+            "sinal": "HD57",
+            "tipo": "SIGNAL",
+            "detalhes": "HD57\nI/O"
+        },
+        "D2": {
+            "sinal": "HD58",
+            "tipo": "SIGNAL",
+            "detalhes": "HD58\nI/O"
+        },
+        "C1": {
+            "sinal": "HD59",
+            "tipo": "SIGNAL",
+            "detalhes": "HD59\nI/O"
+        },
+        "C2": {
+            "sinal": "HD60",
+            "tipo": "SIGNAL",
+            "detalhes": "HD60\nI/O"
+        },
+        "C3": {
+            "sinal": "HD61",
+            "tipo": "SIGNAL",
+            "detalhes": "HD61\nI/O"
+        },
+        "B1": {
+            "sinal": "HD62",
+            "tipo": "SIGNAL",
+            "detalhes": "HD62\nI/O"
+        },
+        "A1": {
+            "sinal": "HD63",
+            "tipo": "SIGNAL",
+            "detalhes": "HD63\nI/O"
+        },
+        "T8": {
+            "sinal": "HITM#",
+            "tipo": "SIGNAL",
+            "detalhes": "HITM#\nI"
+        },
+        "G5": {
+            "sinal": "HLOCK#",
+            "tipo": "SIGNAL",
+            "detalhes": "HLOCK#\nI"
+        },
+        "E7": {
+            "sinal": "IRDY#",
+            "tipo": "SIGNAL",
+            "detalhes": "IRDY#\nI/O"
+        },
+        "K5": {
+            "sinal": "KEN#/INV",
+            "tipo": "SIGNAL",
+            "detalhes": "KEN#/INV\nO"
+        },
+        "E5": {
+            "sinal": "LOCK#",
+            "tipo": "SIGNAL",
+            "detalhes": "LOCK#\nI/O"
+        },
+        "H5": {
+            "sinal": "M/IO#",
+            "tipo": "SIGNAL",
+            "detalhes": "M/IO#\nI"
+        },
+        "Y13": {
+            "sinal": "MA2",
+            "tipo": "SIGNAL",
+            "detalhes": "MA2\nO"
+        },
+        "W13": {
+            "sinal": "MA3",
+            "tipo": "SIGNAL",
+            "detalhes": "MA3\nO"
+        },
+        "V13": {
+            "sinal": "MA4",
+            "tipo": "SIGNAL",
+            "detalhes": "MA4\nO"
+        },
+        "U13": {
+            "sinal": "MA5",
+            "tipo": "SIGNAL",
+            "detalhes": "MA5\nO"
+        },
+        "T13": {
+            "sinal": "MA6",
+            "tipo": "SIGNAL",
+            "detalhes": "MA6\nO"
+        },
+        "W14": {
+            "sinal": "MA7",
+            "tipo": "SIGNAL",
+            "detalhes": "MA7\nO"
+        },
+        "U14": {
+            "sinal": "MA8",
+            "tipo": "SIGNAL",
+            "detalhes": "MA8\nO"
+        },
+        "Y15": {
+            "sinal": "MA9",
+            "tipo": "SIGNAL",
+            "detalhes": "MA9\nO"
+        },
+        "Y14": {
+            "sinal": "MA10",
+            "tipo": "SIGNAL",
+            "detalhes": "MA10\nO"
+        },
+        "V14": {
+            "sinal": "MA11",
+            "tipo": "SIGNAL",
+            "detalhes": "MA11\nO"
+        },
+        "V12": {
+            "sinal": "MAA0",
+            "tipo": "SIGNAL",
+            "detalhes": "MAA0\nO"
+        },
+        "T12": {
+            "sinal": "MAA1",
+            "tipo": "SIGNAL",
+            "detalhes": "MAA1\nO"
+        },
+        "W12": {
+            "sinal": "MAB0",
+            "tipo": "SIGNAL",
+            "detalhes": "MAB0\nO"
+        },
+        "U12": {
+            "sinal": "MAB1",
+            "tipo": "SIGNAL",
+            "detalhes": "MAB1\nO"
+        },
+        "W20": {
+            "sinal": "MD00",
+            "tipo": "SIGNAL",
+            "detalhes": "MD00\nI/O"
+        },
+        "T17": {
+            "sinal": "MD01",
+            "tipo": "SIGNAL",
+            "detalhes": "MD01\nI/O"
+        },
+        "T19": {
+            "sinal": "MD02",
+            "tipo": "SIGNAL",
+            "detalhes": "MD02\nI/O"
+        },
+        "R20": {
+            "sinal": "MD03",
+            "tipo": "SIGNAL",
+            "detalhes": "MD03\nI/O"
+        },
+        "P19": {
+            "sinal": "MD04",
+            "tipo": "SIGNAL",
+            "detalhes": "MD04\nI/O"
+        },
+        "N18": {
+            "sinal": "MD05",
+            "tipo": "SIGNAL",
+            "detalhes": "MD05\nI/O"
+        },
+        "L20": {
+            "sinal": "MD06",
+            "tipo": "SIGNAL",
+            "detalhes": "MD06\nI/O"
+        },
+        "K19": {
+            "sinal": "MD07",
+            "tipo": "SIGNAL",
+            "detalhes": "MD07\nI/O"
+        },
+        "F18": {
+            "sinal": "MD08",
+            "tipo": "SIGNAL",
+            "detalhes": "MD08\nI/O"
+        },
+        "D20": {
+            "sinal": "MD09",
+            "tipo": "SIGNAL",
+            "detalhes": "MD09\nI/O"
+        },
+        "C19": {
+            "sinal": "MD10",
+            "tipo": "SIGNAL",
+            "detalhes": "MD10\nI/O"
+        },
+        "C18": {
+            "sinal": "MD11",
+            "tipo": "SIGNAL",
+            "detalhes": "MD11\nI/O"
+        },
+        "B18": {
+            "sinal": "MD12",
+            "tipo": "SIGNAL",
+            "detalhes": "MD12\nI/O"
+        },
+        "B16": {
+            "sinal": "MD13",
+            "tipo": "SIGNAL",
+            "detalhes": "MD13\nI/O"
+        },
+        "B15": {
+            "sinal": "MD14",
+            "tipo": "SIGNAL",
+            "detalhes": "MD14\nI/O"
+        },
+        "C13": {
+            "sinal": "MD15",
+            "tipo": "SIGNAL",
+            "detalhes": "MD15\nI/O"
+        },
+        "U18": {
+            "sinal": "MD16",
+            "tipo": "SIGNAL",
+            "detalhes": "MD16\nI/O"
+        },
+        "U20": {
+            "sinal": "MD17",
+            "tipo": "SIGNAL",
+            "detalhes": "MD17\nI/O"
+        },
+        "R18": {
+            "sinal": "MD18",
+            "tipo": "SIGNAL",
+            "detalhes": "MD18\nI/O"
+        },
+        "P17": {
+            "sinal": "MD19",
+            "tipo": "SIGNAL",
+            "detalhes": "MD19\nI/O"
+        },
+        "N20": {
+            "sinal": "MD20",
+            "tipo": "SIGNAL",
+            "detalhes": "MD20\nI/O"
+        },
+        "M19": {
+            "sinal": "MD21",
+            "tipo": "SIGNAL",
+            "detalhes": "MD21\nI/O"
+        },
+        "L18": {
+            "sinal": "MD22",
+            "tipo": "SIGNAL",
+            "detalhes": "MD22\nI/O"
+        },
+        "J20": {
+            "sinal": "MD23",
+            "tipo": "SIGNAL",
+            "detalhes": "MD23\nI/O"
+        },
+        "E19": {
+            "sinal": "MD24",
+            "tipo": "SIGNAL",
+            "detalhes": "MD24\nI/O"
+        },
+        "E17": {
+            "sinal": "MD25",
+            "tipo": "SIGNAL",
+            "detalhes": "MD25\nI/O"
+        },
+        "D18": {
+            "sinal": "MD26",
+            "tipo": "SIGNAL",
+            "detalhes": "MD26\nI/O"
+        },
+        "A19": {
+            "sinal": "MD27",
+            "tipo": "SIGNAL",
+            "detalhes": "MD27\nI/O"
+        },
+        "C17": {
+            "sinal": "MD28",
+            "tipo": "SIGNAL",
+            "detalhes": "MD28\nI/O"
+        },
+        "A17": {
+            "sinal": "MD29",
+            "tipo": "SIGNAL",
+            "detalhes": "MD29\nI/O"
+        },
+        "D16": {
+            "sinal": "MD30",
+            "tipo": "SIGNAL",
+            "detalhes": "MD30\nI/O"
+        },
+        "B14": {
+            "sinal": "MD31",
+            "tipo": "SIGNAL",
+            "detalhes": "MD31\nI/O"
+        },
+        "V19": {
+            "sinal": "MD32",
+            "tipo": "SIGNAL",
+            "detalhes": "MD32\nI/O"
+        },
+        "U19": {
+            "sinal": "MD33",
+            "tipo": "SIGNAL",
+            "detalhes": "MD33\nI/O"
+        },
+        "T20": {
+            "sinal": "MD34",
+            "tipo": "SIGNAL",
+            "detalhes": "MD34\nI/O"
+        },
+        "R17": {
+            "sinal": "MD35",
+            "tipo": "SIGNAL",
+            "detalhes": "MD35\nI/O"
+        },
+        "P18": {
+            "sinal": "MD36",
+            "tipo": "SIGNAL",
+            "detalhes": "MD36\nI/O"
+        },
+        "M20": {
+            "sinal": "MD37",
+            "tipo": "SIGNAL",
+            "detalhes": "MD37\nI/O"
+        },
+        "L19": {
+            "sinal": "MD38",
+            "tipo": "SIGNAL",
+            "detalhes": "MD38\nI/O"
+        },
+        "K18": {
+            "sinal": "MD39",
+            "tipo": "SIGNAL",
+            "detalhes": "MD39\nI/O"
+        },
+        "F19": {
+            "sinal": "MD40",
+            "tipo": "SIGNAL",
+            "detalhes": "MD40\nI/O"
+        },
+        "E18": {
+            "sinal": "MD41",
+            "tipo": "SIGNAL",
+            "detalhes": "MD41\nI/O"
+        },
+        "C20": {
+            "sinal": "MD42",
+            "tipo": "SIGNAL",
+            "detalhes": "MD42\nI/O"
+        },
+        "A20": {
+            "sinal": "MD43",
+            "tipo": "SIGNAL",
+            "detalhes": "MD43\nI/O"
+        },
+        "D17": {
+            "sinal": "MD44",
+            "tipo": "SIGNAL",
+            "detalhes": "MD44\nI/O"
+        },
+        "C16": {
+            "sinal": "MD45",
+            "tipo": "SIGNAL",
+            "detalhes": "MD45\nI/O"
+        },
+        "D15": {
+            "sinal": "MD46",
+            "tipo": "SIGNAL",
+            "detalhes": "MD46\nI/O"
+        },
+        "C14": {
+            "sinal": "MD47",
+            "tipo": "SIGNAL",
+            "detalhes": "MD47\nI/O"
+        },
+        "V20": {
+            "sinal": "MD48",
+            "tipo": "SIGNAL",
+            "detalhes": "MD48\nI/O"
+        },
+        "T18": {
+            "sinal": "MD49",
+            "tipo": "SIGNAL",
+            "detalhes": "MD49\nI/O"
+        },
+        "R19": {
+            "sinal": "MD50",
+            "tipo": "SIGNAL",
+            "detalhes": "MD50\nI/O"
+        },
+        "P20": {
+            "sinal": "MD51",
+            "tipo": "SIGNAL",
+            "detalhes": "MD51\nI/O"
+        },
+        "N19": {
+            "sinal": "MD52",
+            "tipo": "SIGNAL",
+            "detalhes": "MD52\nI/O"
+        },
+        "M18": {
+            "sinal": "MD53",
+            "tipo": "SIGNAL",
+            "detalhes": "MD53\nI/O"
+        },
+        "K20": {
+            "sinal": "MD54",
+            "tipo": "SIGNAL",
+            "detalhes": "MD54\nI/O"
+        },
+        "J19": {
+            "sinal": "MD55",
+            "tipo": "SIGNAL",
+            "detalhes": "MD55\nI/O"
+        },
+        "E20": {
+            "sinal": "MD56",
+            "tipo": "SIGNAL",
+            "detalhes": "MD56\nI/O"
+        },
+        "D19": {
+            "sinal": "MD57",
+            "tipo": "SIGNAL",
+            "detalhes": "MD57\nI/O"
+        },
+        "B20": {
+            "sinal": "MD58",
+            "tipo": "SIGNAL",
+            "detalhes": "MD58\nI/O"
+        },
+        "B19": {
+            "sinal": "MD59",
+            "tipo": "SIGNAL",
+            "detalhes": "MD59\nI/O"
+        },
+        "A18": {
+            "sinal": "MD60",
+            "tipo": "SIGNAL",
+            "detalhes": "MD60\nI/O"
+        },
+        "B17": {
+            "sinal": "MD61",
+            "tipo": "SIGNAL",
+            "detalhes": "MD61\nI/O"
+        },
+        "A16": {
+            "sinal": "MD62",
+            "tipo": "SIGNAL",
+            "detalhes": "MD62\nI/O"
+        },
+        "C15": {
+            "sinal": "MD63",
+            "tipo": "SIGNAL",
+            "detalhes": "MD63\nI/O"
+        },
+        "H19": {
+            "sinal": "MPD0",
+            "tipo": "SIGNAL",
+            "detalhes": "MPD0\nI/O"
+        },
+        "G19": {
+            "sinal": "MPD1",
+            "tipo": "SIGNAL",
+            "detalhes": "MPD1\nI/O"
+        },
+        "J18": {
+            "sinal": "MPD2",
+            "tipo": "SIGNAL",
+            "detalhes": "MPD2\nI/O"
+        },
+        "F20": {
+            "sinal": "MPD3",
+            "tipo": "SIGNAL",
+            "detalhes": "MPD3\nI/O"
+        },
+        "H18": {
+            "sinal": "MPD4",
+            "tipo": "SIGNAL",
+            "detalhes": "MPD4\nI/O"
+        },
+        "G20": {
+            "sinal": "MPD5",
+            "tipo": "SIGNAL",
+            "detalhes": "MPD5\nI/O"
+        },
+        "H20": {
+            "sinal": "MPD6",
+            "tipo": "SIGNAL",
+            "detalhes": "MPD6\nI/O"
+        },
+        "G18": {
+            "sinal": "MPD7",
+            "tipo": "SIGNAL",
+            "detalhes": "MPD7\nI/O"
+        },
+        "T11": {
+            "sinal": "MWE#",
+            "tipo": "SIGNAL",
+            "detalhes": "MWE#\nO"
+        },
+        "N5": {
+            "sinal": "NA#",
+            "tipo": "SIGNAL",
+            "detalhes": "NA#\nO"
+        },
+        "E12": {
+            "sinal": "PAR",
+            "tipo": "SIGNAL",
+            "detalhes": "PAR\nI/O"
+        },
+        "E10": {
+            "sinal": "PCLKIN",
+            "tipo": "SIGNAL",
+            "detalhes": "PCLKIN\nI"
+        },
+        "D4": {
+            "sinal": "PHLD#",
+            "tipo": "SIGNAL",
+            "detalhes": "PHLD#\nI"
+        },
+        "D5": {
+            "sinal": "PHLDA#",
+            "tipo": "SIGNAL",
+            "detalhes": "PHLDA#\nO"
+        },
+        "G17": {
+            "sinal": "RAS0#",
+            "tipo": "SIGNAL",
+            "detalhes": "RAS0#\nO"
+        },
+        "F17": {
+            "sinal": "RAS1#",
+            "tipo": "SIGNAL",
+            "detalhes": "RAS1#\nO"
+        },
+        "F16": {
+            "sinal": "RAS2#",
+            "tipo": "SIGNAL",
+            "detalhes": "RAS2#\nO"
+        },
+        "E16": {
+            "sinal": "RAS3#",
+            "tipo": "SIGNAL",
+            "detalhes": "RAS3#\nO"
+        },
+        "M17": {
+            "sinal": "RAS4#",
+            "tipo": "SIGNAL",
+            "detalhes": "RAS4#\nO"
+        },
+        "N17": {
+            "sinal": "RAS5#",
+            "tipo": "SIGNAL",
+            "detalhes": "RAS5#\nO"
+        },
+        "M16": {
+            "sinal": "RAS6#",
+            "tipo": "SIGNAL",
+            "detalhes": "RAS6#\nO"
+        },
+        "N16": {
+            "sinal": "RAS7#",
+            "tipo": "SIGNAL",
+            "detalhes": "RAS7#\nO"
+        },
+        "D7": {
+            "sinal": "REQ0#",
+            "tipo": "SIGNAL",
+            "detalhes": "REQ0#\nO"
+        },
+        "D9": {
+            "sinal": "REQ1#",
+            "tipo": "SIGNAL",
+            "detalhes": "REQ1#\nO"
+        },
+        "D11": {
+            "sinal": "REQ2#",
+            "tipo": "SIGNAL",
+            "detalhes": "REQ2#\nO"
+        },
+        "D13": {
+            "sinal": "REQ3#",
+            "tipo": "SIGNAL",
+            "detalhes": "REQ3#\nO"
+        },
+        "T15": {
+            "sinal": "RST#",
+            "tipo": "SIGNAL",
+            "detalhes": "RST#\nI"
+        },
+        "E13": {
+            "sinal": "SERR#",
+            "tipo": "SIGNAL",
+            "detalhes": "SERR#\nO"
+        },
+        "T10": {
+            "sinal": "SMIACT#",
+            "tipo": "SIGNAL",
+            "detalhes": "SMIACT#\nI"
+        },
+        "E11": {
+            "sinal": "STOP#",
+            "tipo": "SIGNAL",
+            "detalhes": "STOP#\nI/O"
+        },
+        "W17": {
+            "sinal": "TEST#",
+            "tipo": "SIGNAL",
+            "detalhes": "TEST#\nI"
+        },
+        "P16": {
+            "sinal": "TIO0",
+            "tipo": "SIGNAL",
+            "detalhes": "TIO0\nI/O"
+        },
+        "U16": {
+            "sinal": "TIO1",
+            "tipo": "SIGNAL",
+            "detalhes": "TIO1\nI/O"
+        },
+        "U17": {
+            "sinal": "TIO2",
+            "tipo": "SIGNAL",
+            "detalhes": "TIO2\nI/O"
+        },
+        "V17": {
+            "sinal": "TIO3",
+            "tipo": "SIGNAL",
+            "detalhes": "TIO3\nI/O"
+        },
+        "T14": {
+            "sinal": "TIO4",
+            "tipo": "SIGNAL",
+            "detalhes": "TIO4\nI/O"
+        },
+        "V18": {
+            "sinal": "TIO5",
+            "tipo": "SIGNAL",
+            "detalhes": "TIO5\nI/O"
+        },
+        "W18": {
+            "sinal": "TIO6",
+            "tipo": "SIGNAL",
+            "detalhes": "TIO6\nI/O"
+        },
+        "Y18": {
+            "sinal": "TIO7",
+            "tipo": "SIGNAL",
+            "detalhes": "TIO7\nI/O"
+        },
+        "W19": {
+            "sinal": "TIO8",
+            "tipo": "SIGNAL",
+            "detalhes": "TIO8\nI/O"
+        },
+        "Y20": {
+            "sinal": "TIO10",
+            "tipo": "SIGNAL",
+            "detalhes": "TIO10\nI/O"
+        },
+        "E8": {
+            "sinal": "TRDY#",
+            "tipo": "SIGNAL",
+            "detalhes": "TRDY#\nI/O"
+        },
+        "V16": {
+            "sinal": "TWE#",
+            "tipo": "SIGNAL",
+            "detalhes": "TWE#\nO"
+        },
+        "R16": {
+            "sinal": "VCC3",
+            "tipo": "VCC",
+            "detalhes": "VCC3\n—"
+        },
+        "F5": {
+            "sinal": "VCC3",
+            "tipo": "VCC",
+            "detalhes": "VCC3\n—"
+        },
+        "F6": {
+            "sinal": "VCC3",
+            "tipo": "VCC",
+            "detalhes": "VCC3\n—"
+        },
+        "G6": {
+            "sinal": "VCC3",
+            "tipo": "VCC",
+            "detalhes": "VCC3\n—"
+        },
+        "R6": {
+            "sinal": "VCC3",
+            "tipo": "VCC",
+            "detalhes": "VCC3\n—"
+        },
+        "R7": {
+            "sinal": "VCC3",
+            "tipo": "VCC",
+            "detalhes": "VCC3\n—"
+        },
+        "F14": {
+            "sinal": "VCC3",
+            "tipo": "VCC",
+            "detalhes": "VCC3\n—"
+        },
+        "F15": {
+            "sinal": "VCC3",
+            "tipo": "VCC",
+            "detalhes": "VCC3\n—"
+        },
+        "P15": {
+            "sinal": "VCC3",
+            "tipo": "VCC",
+            "detalhes": "VCC3\n—"
+        },
+        "R15": {
+            "sinal": "VCC3",
+            "tipo": "VCC",
+            "detalhes": "VCC3\n—"
+        },
+        "E14": {
+            "sinal": "VDD5",
+            "tipo": "VCC",
+            "detalhes": "VDD5\n—"
+        },
+        "T6": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "J9": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "K9": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "L9": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "M9": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "J10": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "K10": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "L10": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "M10": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "J11": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "K11": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "L11": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "M11": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "J12": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "K12": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "L12": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "M12": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "E15": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "T16": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\n—"
+        },
+        "T9": {
+            "sinal": "W/R#",
+            "tipo": "SIGNAL",
+            "detalhes": "W/R#\nI"
+        }
+    }
+}

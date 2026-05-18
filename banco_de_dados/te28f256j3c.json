@@ -1,0 +1,338 @@
+{
+    "chip_config": {
+        "colunas": 8,
+        "letras": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+        ],
+        "vazio": []
+    },
+    "pinagem": {
+        "A1": {
+            "sinal": "A1",
+            "tipo": "SIGNAL",
+            "detalhes": "A1\nAddress Input"
+        },
+        "A2": {
+            "sinal": "A2",
+            "tipo": "SIGNAL",
+            "detalhes": "A2\nAddress Input"
+        },
+        "A3": {
+            "sinal": "A3",
+            "tipo": "SIGNAL",
+            "detalhes": "A3\nAddress Input"
+        },
+        "A4": {
+            "sinal": "VPEN",
+            "tipo": "SIGNAL",
+            "detalhes": "VPEN\nErase/Program/Block Lock Enable"
+        },
+        "A5": {
+            "sinal": "A4",
+            "tipo": "SIGNAL",
+            "detalhes": "A4\nAddress Input"
+        },
+        "A6": {
+            "sinal": "A6",
+            "tipo": "SIGNAL",
+            "detalhes": "A6\nAddress Input"
+        },
+        "A7": {
+            "sinal": "A7",
+            "tipo": "SIGNAL",
+            "detalhes": "A7\nAddress Input"
+        },
+        "A8": {
+            "sinal": "A8",
+            "tipo": "SIGNAL",
+            "detalhes": "A8\nAddress Input"
+        },
+        "B1": {
+            "sinal": "A6",
+            "tipo": "SIGNAL",
+            "detalhes": "A6\nAddress Input (Revisar no diagrama)"
+        },
+        "B2": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\nGround - I/O and Core"
+        },
+        "B3": {
+            "sinal": "A9",
+            "tipo": "SIGNAL",
+            "detalhes": "A9\nAddress Input"
+        },
+        "B4": {
+            "sinal": "CE0#",
+            "tipo": "SIGNAL",
+            "detalhes": "CE0#\nChip Enable 0"
+        },
+        "B5": {
+            "sinal": "A13",
+            "tipo": "SIGNAL",
+            "detalhes": "A13\nAddress Input"
+        },
+        "B6": {
+            "sinal": "RFU",
+            "tipo": "SIGNAL",
+            "detalhes": "RFU\nReserved for Future Use"
+        },
+        "B7": {
+            "sinal": "A18",
+            "tipo": "SIGNAL",
+            "detalhes": "A18\nAddress Input"
+        },
+        "B8": {
+            "sinal": "A22",
+            "tipo": "SIGNAL",
+            "detalhes": "A22\nAddress Input"
+        },
+        "C1": {
+            "sinal": "A8",
+            "tipo": "SIGNAL",
+            "detalhes": "A8\nAddress Input (Revisar no diagrama)"
+        },
+        "C2": {
+            "sinal": "A7",
+            "tipo": "SIGNAL",
+            "detalhes": "A7\nAddress Input (Revisar no diagrama)"
+        },
+        "C3": {
+            "sinal": "A10",
+            "tipo": "SIGNAL",
+            "detalhes": "A10\nAddress Input"
+        },
+        "C4": {
+            "sinal": "A12",
+            "tipo": "SIGNAL",
+            "detalhes": "A12\nAddress Input"
+        },
+        "C5": {
+            "sinal": "A14",
+            "tipo": "SIGNAL",
+            "detalhes": "A14\nAddress Input"
+        },
+        "C6": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nCore Power Supply"
+        },
+        "C7": {
+            "sinal": "A19",
+            "tipo": "SIGNAL",
+            "detalhes": "A19\nAddress Input"
+        },
+        "C8": {
+            "sinal": "A22",
+            "tipo": "SIGNAL",
+            "detalhes": "A22\nAddress Input (Revisar no diagrama)"
+        },
+        "D1": {
+            "sinal": "VPEN",
+            "tipo": "SIGNAL",
+            "detalhes": "VPEN\nErase/Program/Block Lock Enable (Revisar no diagrama)"
+        },
+        "D2": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\nGround (Revisar no diagrama)"
+        },
+        "D3": {
+            "sinal": "A11",
+            "tipo": "SIGNAL",
+            "detalhes": "A11\nAddress Input"
+        },
+        "D4": {
+            "sinal": "RP#",
+            "tipo": "SIGNAL",
+            "detalhes": "RP#\nReset / Power-down"
+        },
+        "D5": {
+            "sinal": "A15",
+            "tipo": "SIGNAL",
+            "detalhes": "A15\nAddress Input"
+        },
+        "D6": {
+            "sinal": "RFU",
+            "tipo": "SIGNAL",
+            "detalhes": "RFU\nReserved for Future Use"
+        },
+        "D7": {
+            "sinal": "A20",
+            "tipo": "SIGNAL",
+            "detalhes": "A20\nAddress Input"
+        },
+        "D8": {
+            "sinal": "CE1#",
+            "tipo": "SIGNAL",
+            "detalhes": "CE1#\nChip Enable 1"
+        },
+        "E1": {
+            "sinal": "A13",
+            "tipo": "SIGNAL",
+            "detalhes": "A13\nAddress Input (Revisar no diagrama)"
+        },
+        "E2": {
+            "sinal": "A14",
+            "tipo": "SIGNAL",
+            "detalhes": "A14\nAddress Input (Revisar no diagrama)"
+        },
+        "E3": {
+            "sinal": "D9",
+            "tipo": "SIGNAL",
+            "detalhes": "D9\nHigh-Byte Data Bus"
+        },
+        "E4": {
+            "sinal": "D3",
+            "tipo": "SIGNAL",
+            "detalhes": "D3\nLow-Byte Data Bus"
+        },
+        "E5": {
+            "sinal": "D4",
+            "tipo": "SIGNAL",
+            "detalhes": "D4\nLow-Byte Data Bus"
+        },
+        "E6": {
+            "sinal": "RFU",
+            "tipo": "SIGNAL",
+            "detalhes": "RFU\nReserved for Future Use"
+        },
+        "E7": {
+            "sinal": "A21",
+            "tipo": "SIGNAL",
+            "detalhes": "A21\nAddress Input"
+        },
+        "E8": {
+            "sinal": "A21",
+            "tipo": "SIGNAL",
+            "detalhes": "A21\nAddress Input (Revisar no diagrama)"
+        },
+        "F1": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nCore Power Supply (Revisar no diagrama)"
+        },
+        "F2": {
+            "sinal": "RFU",
+            "tipo": "SIGNAL",
+            "detalhes": "RFU\nReserved for Future Use"
+        },
+        "F3": {
+            "sinal": "D10",
+            "tipo": "SIGNAL",
+            "detalhes": "D10\nHigh-Byte Data Bus"
+        },
+        "F4": {
+            "sinal": "D11",
+            "tipo": "SIGNAL",
+            "detalhes": "D11\nHigh-Byte Data Bus"
+        },
+        "F5": {
+            "sinal": "D12",
+            "tipo": "SIGNAL",
+            "detalhes": "D12\nHigh-Byte Data Bus"
+        },
+        "F6": {
+            "sinal": "RFU",
+            "tipo": "SIGNAL",
+            "detalhes": "RFU\nReserved for Future Use"
+        },
+        "F7": {
+            "sinal": "D15",
+            "tipo": "SIGNAL",
+            "detalhes": "D15\nHigh-Byte Data Bus"
+        },
+        "F8": {
+            "sinal": "STS",
+            "tipo": "SIGNAL",
+            "detalhes": "STS\nStatus Output (Open Drain)"
+        },
+        "G1": {
+            "sinal": "A18",
+            "tipo": "SIGNAL",
+            "detalhes": "A18\nAddress Input (Revisar no diagrama)"
+        },
+        "G2": {
+            "sinal": "A19",
+            "tipo": "SIGNAL",
+            "detalhes": "A19\nAddress Input (Revisar no diagrama)"
+        },
+        "G3": {
+            "sinal": "D2",
+            "tipo": "SIGNAL",
+            "detalhes": "D2\nLow-Byte Data Bus"
+        },
+        "G4": {
+            "sinal": "VCCQ",
+            "tipo": "VCC",
+            "detalhes": "VCCQ\nI/O Power Supply"
+        },
+        "G5": {
+            "sinal": "D5",
+            "tipo": "SIGNAL",
+            "detalhes": "D5\nLow-Byte Data Bus"
+        },
+        "G6": {
+            "sinal": "D6",
+            "tipo": "SIGNAL",
+            "detalhes": "D6\nLow-Byte Data Bus"
+        },
+        "G7": {
+            "sinal": "D14",
+            "tipo": "SIGNAL",
+            "detalhes": "D14\nHigh-Byte Data Bus"
+        },
+        "G8": {
+            "sinal": "OE#",
+            "tipo": "SIGNAL",
+            "detalhes": "OE#\nOutput Enable (Active Low)"
+        },
+        "H1": {
+            "sinal": "A22",
+            "tipo": "SIGNAL",
+            "detalhes": "A22\nAddress Input (Revisar no diagrama)"
+        },
+        "H2": {
+            "sinal": "CE1#",
+            "tipo": "SIGNAL",
+            "detalhes": "CE1#\nChip Enable 1 (Revisar no diagrama)"
+        },
+        "H3": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nCore Power Supply"
+        },
+        "H4": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\nGround - I/O and Core"
+        },
+        "H5": {
+            "sinal": "D13",
+            "tipo": "SIGNAL",
+            "detalhes": "D13\nHigh-Byte Data Bus"
+        },
+        "H6": {
+            "sinal": "VSS",
+            "tipo": "GND",
+            "detalhes": "VSS\nGround - I/O and Core"
+        },
+        "H7": {
+            "sinal": "D7",
+            "tipo": "SIGNAL",
+            "detalhes": "D7\nLow-Byte Data Bus"
+        },
+        "H8": {
+            "sinal": "WE#",
+            "tipo": "SIGNAL",
+            "detalhes": "WE#\nWrite Enable (Active Low)"
+        }
+    }
+}

@@ -1,0 +1,562 @@
+{
+    "chip_config": {
+        "colunas": 26,
+        "letras": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "F",
+            "H",
+            "J",
+            "K",
+            "M",
+            "N",
+            "P",
+            "R",
+            "T",
+            "U",
+            "V",
+            "W",
+            "AA",
+            "AB",
+            "AC",
+            "AD",
+            "AE",
+            "AF"
+        ],
+        "vazio": [
+            {
+                "p1": "F5",
+                "p2": "AB22"
+            }
+        ]
+    },
+    "pinagem": {
+        "D4": {
+            "sinal": "MSELO",
+            "tipo": "SIGNAL",
+            "detalhes": "MSELO\nConfiguração de Modo"
+        },
+        "D3": {
+            "sinal": "MSEL1",
+            "tipo": "SIGNAL",
+            "detalhes": "MSEL1\nConfiguração de Modo"
+        },
+        "D24": {
+            "sinal": "NSTATUS",
+            "tipo": "SIGNAL",
+            "detalhes": "nSTATUS\nStatus de Erro"
+        },
+        "D2": {
+            "sinal": "NCONFIG",
+            "tipo": "SIGNAL",
+            "detalhes": "nCONFIG\nEntrada de Configuração"
+        },
+        "AC5": {
+            "sinal": "DCLK",
+            "tipo": "SIGNAL",
+            "detalhes": "DCLK\nClock de Configuração"
+        },
+        "AC24": {
+            "sinal": "CONF_DONE",
+            "tipo": "SIGNAL",
+            "detalhes": "CONF_DONE\nStatus de Sucesso"
+        },
+        "T24": {
+            "sinal": "INIT_DONE",
+            "tipo": "SIGNAL",
+            "detalhes": "INIT_DONE\nFim da Inicialização"
+        },
+        "AC2": {
+            "sinal": "NCE",
+            "tipo": "SIGNAL",
+            "detalhes": "nCE\nChip Enable (Ativo Low)"
+        },
+        "AC22": {
+            "sinal": "NCEO",
+            "tipo": "SIGNAL",
+            "detalhes": "nCEO\nChip Enable Output"
+        },
+        "AE24": {
+            "sinal": "NWS",
+            "tipo": "SIGNAL",
+            "detalhes": "nWS\nSinal de Escrita"
+        },
+        "AE23": {
+            "sinal": "NRS",
+            "tipo": "SIGNAL",
+            "detalhes": "nRS\nSinal de Leitura"
+        },
+        "AD24": {
+            "sinal": "NCS",
+            "tipo": "SIGNAL",
+            "detalhes": "nCS\nChip Select"
+        },
+        "AD23": {
+            "sinal": "CS",
+            "tipo": "SIGNAL",
+            "detalhes": "CS\nChip Select"
+        },
+        "U22": {
+            "sinal": "RDYNBUSY",
+            "tipo": "SIGNAL",
+            "detalhes": "RDYnBUSY\nPronto / Ocupado"
+        },
+        "AA24": {
+            "sinal": "CLKUSR",
+            "tipo": "SIGNAL",
+            "detalhes": "CLKUSR\nClock de Usuário"
+        },
+        "AF4": {
+            "sinal": "DATA7",
+            "tipo": "SIGNAL",
+            "detalhes": "DATA7\nBarramento de Dados 7"
+        },
+        "AD8": {
+            "sinal": "DATA6",
+            "tipo": "SIGNAL",
+            "detalhes": "DATA6\nBarramento de Dados 6"
+        },
+        "AE5": {
+            "sinal": "DATA5",
+            "tipo": "SIGNAL",
+            "detalhes": "DATA5\nBarramento de Dados 5"
+        },
+        "AD6": {
+            "sinal": "DATA4",
+            "tipo": "SIGNAL",
+            "detalhes": "DATA4\nBarramento de Dados 4"
+        },
+        "AF2": {
+            "sinal": "DATA3",
+            "tipo": "SIGNAL",
+            "detalhes": "DATA3\nBarramento de Dados 3"
+        },
+        "AD5": {
+            "sinal": "DATA2",
+            "tipo": "SIGNAL",
+            "detalhes": "DATA2\nBarramento de Dados 2"
+        },
+        "AD4": {
+            "sinal": "DATA1",
+            "tipo": "SIGNAL",
+            "detalhes": "DATA1\nBarramento de Dados 1"
+        },
+        "AD3": {
+            "sinal": "DATA0",
+            "tipo": "SIGNAL",
+            "detalhes": "DATA0\nBarramento de Dados 0"
+        },
+        "AC3": {
+            "sinal": "TDI",
+            "tipo": "SIGNAL",
+            "detalhes": "TDI\nJTAG - Entrada"
+        },
+        "AC23": {
+            "sinal": "TDO",
+            "tipo": "SIGNAL",
+            "detalhes": "TDO\nJTAG - Saída"
+        },
+        "AD25": {
+            "sinal": "TCK",
+            "tipo": "SIGNAL",
+            "detalhes": "TCK\nJTAG - Clock"
+        },
+        "D22": {
+            "sinal": "TMS",
+            "tipo": "SIGNAL",
+            "detalhes": "TMS\nJTAG - Seleção de Modo"
+        },
+        "D23": {
+            "sinal": "TRST",
+            "tipo": "SIGNAL",
+            "detalhes": "TRST\nJTAG - Reset"
+        },
+        "A13": {
+            "sinal": "DEDICATED INPUT",
+            "tipo": "SIGNAL",
+            "detalhes": "Dedicated Input\nEntrada Dedicada"
+        },
+        "B14": {
+            "sinal": "DEDICATED INPUT",
+            "tipo": "SIGNAL",
+            "detalhes": "Dedicated Input\nEntrada Dedicada"
+        },
+        "AF14": {
+            "sinal": "DEDICATED INPUT",
+            "tipo": "SIGNAL",
+            "detalhes": "Dedicated Input\nEntrada Dedicada"
+        },
+        "AE13": {
+            "sinal": "DEDICATED INPUT",
+            "tipo": "SIGNAL",
+            "detalhes": "Dedicated Input\nEntrada Dedicada"
+        },
+        "A14": {
+            "sinal": "GCLK1",
+            "tipo": "SIGNAL",
+            "detalhes": "GCLK1\nClock Global"
+        },
+        "AF13": {
+            "sinal": "DEDICATED CLOCK",
+            "tipo": "SIGNAL",
+            "detalhes": "Dedicated Clock\nClock Dedicado"
+        },
+        "C18": {
+            "sinal": "LOCK",
+            "tipo": "SIGNAL",
+            "detalhes": "Lock\nStatus do ClockLock"
+        },
+        "AD13": {
+            "sinal": "DEV_CLRN",
+            "tipo": "SIGNAL",
+            "detalhes": "DEV_CLRn\nLimpeza de Dispositivo"
+        },
+        "AE14": {
+            "sinal": "DEV_OE",
+            "tipo": "SIGNAL",
+            "detalhes": "DEV_OE\nSaída Habilitada"
+        },
+        "C14": {
+            "sinal": "VCC_CKLK",
+            "tipo": "VCC",
+            "detalhes": "VCC_CKLK\nAlimentação do Clock (2.5V)"
+        },
+        "B13": {
+            "sinal": "GND_CKLK",
+            "tipo": "GND",
+            "detalhes": "GND_CKLK\nTerra do Clock (0V)"
+        },
+        "A1": {
+            "sinal": "VCCINT",
+            "tipo": "VCC",
+            "detalhes": "VCCINT\nAlimentação Interna 2.5V"
+        },
+        "A26": {
+            "sinal": "VCCINT",
+            "tipo": "VCC",
+            "detalhes": "VCCINT\nAlimentação Interna 2.5V"
+        },
+        "C26": {
+            "sinal": "VCCINT",
+            "tipo": "VCC",
+            "detalhes": "VCCINT\nAlimentação Interna 2.5V"
+        },
+        "D5": {
+            "sinal": "VCCINT",
+            "tipo": "VCC",
+            "detalhes": "VCCINT\nAlimentação Interna 2.5V"
+        },
+        "F1": {
+            "sinal": "VCCINT",
+            "tipo": "VCC",
+            "detalhes": "VCCINT\nAlimentação Interna 2.5V"
+        },
+        "H22": {
+            "sinal": "VCCINT",
+            "tipo": "VCC",
+            "detalhes": "VCCINT\nAlimentação Interna 2.5V"
+        },
+        "J1": {
+            "sinal": "VCCINT",
+            "tipo": "VCC",
+            "detalhes": "VCCINT\nAlimentação Interna 2.5V"
+        },
+        "M26": {
+            "sinal": "VCCINT",
+            "tipo": "VCC",
+            "detalhes": "VCCINT\nAlimentação Interna 2.5V"
+        },
+        "N1": {
+            "sinal": "VCCINT",
+            "tipo": "VCC",
+            "detalhes": "VCCINT\nAlimentação Interna 2.5V"
+        },
+        "T26": {
+            "sinal": "VCCINT",
+            "tipo": "VCC",
+            "detalhes": "VCCINT\nAlimentação Interna 2.5V"
+        },
+        "U5": {
+            "sinal": "VCCINT",
+            "tipo": "VCC",
+            "detalhes": "VCCINT\nAlimentação Interna 2.5V"
+        },
+        "AA1": {
+            "sinal": "VCCINT",
+            "tipo": "VCC",
+            "detalhes": "VCCINT\nAlimentação Interna 2.5V"
+        },
+        "AD26": {
+            "sinal": "VCCINT",
+            "tipo": "VCC",
+            "detalhes": "VCCINT\nAlimentação Interna 2.5V"
+        },
+        "AF1": {
+            "sinal": "VCCINT",
+            "tipo": "VCC",
+            "detalhes": "VCCINT\nAlimentação Interna 2.5V"
+        },
+        "AF26": {
+            "sinal": "VCCINT",
+            "tipo": "VCC",
+            "detalhes": "VCCINT\nAlimentação Interna 2.5V"
+        },
+        "A7": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "A23": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "B4": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "C15": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "D25": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "F4": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "H24": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "K5": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "M23": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "P2": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "T25": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "V2": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "W22": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "AB1": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "AC25": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "AD18": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "AF3": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "AF7": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "AF16": {
+            "sinal": "VCCIO",
+            "tipo": "VCC",
+            "detalhes": "VCCIO\nAlimentação I/O 3.3V"
+        },
+        "A2": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "A10": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "A20": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "B1": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "B22": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "B25": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "B26": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "C2": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "C9": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "C13": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "C25": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "H23": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "J26": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "K1": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "M1": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "N26": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "R1": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "R26": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "T1": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "U26": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "W1": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "AD2": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "AD14": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "AD20": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "AE1": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "AE2": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "AE7": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "AE25": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "AE26": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "AF11": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "AF19": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        },
+        "AF25": {
+            "sinal": "GNDINT",
+            "tipo": "GND",
+            "detalhes": "GNDINT\nTerra (0V)"
+        }
+    }
+}

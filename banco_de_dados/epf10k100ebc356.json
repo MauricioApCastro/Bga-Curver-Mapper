@@ -1,0 +1,507 @@
+{
+    "chip_config": {
+        "colunas": 26,
+        "letras": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "F",
+            "H",
+            "J",
+            "K",
+            "M",
+            "N",
+            "P",
+            "R",
+            "T",
+            "U",
+            "V",
+            "W",
+            "AA",
+            "AB",
+            "AC",
+            "AD",
+            "AE",
+            "AF"
+        ],
+        "vazio": [
+            {
+                "p1": "D21",
+                "p2": "AC6"
+            }
+        ]
+    },
+    "pinagem": {
+        "A1": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação Interna (VCCINT 2.5V)"
+        },
+        "A26": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação Interna (VCCINT 2.5V)"
+        },
+        "C26": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação Interna (VCCINT 2.5V)"
+        },
+        "D5": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação Interna (VCCINT 2.5V)"
+        },
+        "F1": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação Interna (VCCINT 2.5V)"
+        },
+        "H22": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação Interna (VCCINT 2.5V)"
+        },
+        "J1": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação Interna (VCCINT 2.5V)"
+        },
+        "M26": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação Interna (VCCINT 2.5V)"
+        },
+        "N1": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação Interna (VCCINT 2.5V)"
+        },
+        "T26": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação Interna (VCCINT 2.5V)"
+        },
+        "U5": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação Interna (VCCINT 2.5V)"
+        },
+        "AA1": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação Interna (VCCINT 2.5V)"
+        },
+        "AD26": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação Interna (VCCINT 2.5V)"
+        },
+        "AF1": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação Interna (VCCINT 2.5V)"
+        },
+        "AF26": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação Interna (VCCINT 2.5V)"
+        },
+        "A7": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "A23": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "B4": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "C15": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "D25": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "F4": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "H24": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "K5": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "M23": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "P2": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "T25": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "V2": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "W22": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "AB1": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "AC25": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "AD18": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "AF3": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "AF7": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "AF16": {
+            "sinal": "VCC",
+            "tipo": "VCC",
+            "detalhes": "VCC\nAlimentação de I/O (VCCIO 3.3V)"
+        },
+        "A2": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "A10": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "A20": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "B1": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "B22": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "B25": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "B26": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "C2": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "C9": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "C13": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "C25": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "H23": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "J26": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "K1": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "M1": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "N26": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "R1": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "R26": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "T1": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "U26": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "W1": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "AD2": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "AD14": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "AD20": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "AE1": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "AE2": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "AE7": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "AE25": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "AE26": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "AF11": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "AF19": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "AF25": {
+            "sinal": "GND",
+            "tipo": "GND",
+            "detalhes": "GND\nTerra do Dispositivo"
+        },
+        "D4": {
+            "sinal": "MSELO",
+            "tipo": "SIGNAL",
+            "detalhes": "MSELO\nPino de seleção de modo de configuração (Dedicado)"
+        },
+        "D3": {
+            "sinal": "MSEL1",
+            "tipo": "SIGNAL",
+            "detalhes": "MSEL1\nPino de seleção de modo de configuração (Dedicado)"
+        },
+        "D24": {
+            "sinal": "NSTATUS",
+            "tipo": "SIGNAL",
+            "detalhes": "nSTATUS\nIndica erro de configuração se estiver em nível baixo"
+        },
+        "D2": {
+            "sinal": "NCONFIG",
+            "tipo": "SIGNAL",
+            "detalhes": "nCONFIG\nReinicia o processo de configuração"
+        },
+        "AC5": {
+            "sinal": "DCLK",
+            "tipo": "SIGNAL",
+            "detalhes": "DCLK\nClock de configuração gerado ou recebido"
+        },
+        "AC24": {
+            "sinal": "CONF_DONE",
+            "tipo": "SIGNAL",
+            "detalhes": "CONF_DONE\nIndica conclusão bem-sucedida da configuração"
+        },
+        "T24": {
+            "sinal": "INIT_DONE",
+            "tipo": "SIGNAL",
+            "detalhes": "INIT_DONE\nIndica que o dispositivo entrou em modo de operação"
+        },
+        "AC2": {
+            "sinal": "NCE",
+            "tipo": "SIGNAL",
+            "detalhes": "nCE\nHabilitação do chip para configuração"
+        },
+        "AC22": {
+            "sinal": "NCEO",
+            "tipo": "SIGNAL",
+            "detalhes": "nCEO\nSaída de habilitação para cascateamento de chips"
+        },
+        "AE24": {
+            "sinal": "NWS",
+            "tipo": "SIGNAL",
+            "detalhes": "nWS\nPino de escrita (I/O após configuração)"
+        },
+        "AE23": {
+            "sinal": "NRS",
+            "tipo": "SIGNAL",
+            "detalhes": "nRS\nPino de leitura (I/O após configuração)"
+        },
+        "AD24": {
+            "sinal": "NCS",
+            "tipo": "SIGNAL",
+            "detalhes": "nCS\nSeleção de chip (I/O após configuração)"
+        },
+        "AD23": {
+            "sinal": "CS",
+            "tipo": "SIGNAL",
+            "detalhes": "CS\nSeleção de chip (I/O após configuração)"
+        },
+        "U22": {
+            "sinal": "RDYNBUSY",
+            "tipo": "SIGNAL",
+            "detalhes": "RDYnBUSY\nStatus de pronto ou ocupado"
+        },
+        "AA24": {
+            "sinal": "CLKUSR",
+            "tipo": "SIGNAL",
+            "detalhes": "CLKUSR\nClock fornecido pelo usuário para inicialização"
+        },
+        "AF4": {
+            "sinal": "DATA7",
+            "tipo": "SIGNAL",
+            "detalhes": "DATA7\nBarramento de dados de configuração"
+        },
+        "AD8": {
+            "sinal": "DATA6",
+            "tipo": "SIGNAL",
+            "detalhes": "DATA6\nBarramento de dados de configuração"
+        },
+        "AE5": {
+            "sinal": "DATA5",
+            "tipo": "SIGNAL",
+            "detalhes": "DATA5\nBarramento de dados de configuração"
+        },
+        "AD6": {
+            "sinal": "DATA4",
+            "tipo": "SIGNAL",
+            "detalhes": "DATA4\nBarramento de dados de configuração"
+        },
+        "AF2": {
+            "sinal": "DATA3",
+            "tipo": "SIGNAL",
+            "detalhes": "DATA3\nBarramento de dados de configuração"
+        },
+        "AD5": {
+            "sinal": "DATA2",
+            "tipo": "SIGNAL",
+            "detalhes": "DATA2\nBarramento de dados de configuração"
+        },
+        "AD4": {
+            "sinal": "DATA1",
+            "tipo": "SIGNAL",
+            "detalhes": "DATA1\nBarramento de dados de configuração"
+        },
+        "AD3": {
+            "sinal": "DATA0",
+            "tipo": "SIGNAL",
+            "detalhes": "DATA0\nBarramento de dados de configuração"
+        },
+        "AC3": {
+            "sinal": "TDI",
+            "tipo": "SIGNAL",
+            "detalhes": "TDI\nJTAG: Entrada de dados de teste"
+        },
+        "AC23": {
+            "sinal": "TDO",
+            "tipo": "SIGNAL",
+            "detalhes": "TDO\nJTAG: Saída de dados de teste"
+        },
+        "AD25": {
+            "sinal": "TCK",
+            "tipo": "SIGNAL",
+            "detalhes": "TCK\nJTAG: Sinal de clock para teste"
+        },
+        "D22": {
+            "sinal": "TMS",
+            "tipo": "SIGNAL",
+            "detalhes": "TMS\nJTAG: Seleção de modo de teste"
+        },
+        "D23": {
+            "sinal": "TRST",
+            "tipo": "SIGNAL",
+            "detalhes": "TRST\nJTAG: Reset da porta de teste"
+        }
+    }
+}

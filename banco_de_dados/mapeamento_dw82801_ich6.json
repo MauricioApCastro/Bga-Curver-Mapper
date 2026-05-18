@@ -1,0 +1,2966 @@
+{
+    "chip_config": {
+        "colunas": 27,
+        "letras": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "R",
+            "T",
+            "U",
+            "V",
+            "W",
+            "Y",
+            "AA",
+            "AB",
+            "AC",
+            "AD",
+            "AE",
+            "AF",
+            "AG"
+        ]
+    },
+    "pinagem": {
+        "A1": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "A2": {
+            "sinal": "AD[10]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[10]"
+        },
+        "A3": {
+            "sinal": "IRDY#",
+            "tipo": "SIGNAL",
+            "detalhes": "IRDY#"
+        },
+        "A4": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "A5": {
+            "sinal": "AD[29]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[29]"
+        },
+        "A6": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "A9": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "A10": {
+            "sinal": "ACZ_RST#",
+            "tipo": "SIGNAL",
+            "detalhes": "ACZ_RST#"
+        },
+        "A11": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "A12": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "A13": {
+            "sinal": "VccSus3_3‡",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3‡"
+        },
+        "A14": {
+            "sinal": "USBP[7]N",
+            "tipo": "SIGNAL",
+            "detalhes": "USBP[7]N"
+        },
+        "A15": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "A16": {
+            "sinal": "USBP[5]P",
+            "tipo": "SIGNAL",
+            "detalhes": "USBP[5]P"
+        },
+        "A17": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "A18": {
+            "sinal": "USBP[3]N",
+            "tipo": "SIGNAL",
+            "detalhes": "USBP[3]N"
+        },
+        "A19": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "A20": {
+            "sinal": "USBP[1]N",
+            "tipo": "SIGNAL",
+            "detalhes": "USBP[1]N"
+        },
+        "A21": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "A22": {
+            "sinal": "USBRBIAS#",
+            "tipo": "SIGNAL",
+            "detalhes": "USBRBIAS#"
+        },
+        "A23": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "A24": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "A25": {
+            "sinal": "VccUSBPLL",
+            "tipo": "SIGNAL",
+            "detalhes": "VccUSBPLL"
+        },
+        "A26": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "A27": {
+            "sinal": "CLK48",
+            "tipo": "SIGNAL",
+            "detalhes": "CLK48"
+        },
+        "B1": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "B2": {
+            "sinal": "AD[26]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[26]"
+        },
+        "B3": {
+            "sinal": "AD[24]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[24]"
+        },
+        "B4": {
+            "sinal": "AD[14]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[14]"
+        },
+        "B5": {
+            "sinal": "REQ[1]#",
+            "tipo": "SIGNAL",
+            "detalhes": "REQ[1]#"
+        },
+        "B6": {
+            "sinal": "GNT[1]#",
+            "tipo": "SIGNAL",
+            "detalhes": "GNT[1]#"
+        },
+        "B7": {
+            "sinal": "REQ[6]#/GPI[0]",
+            "tipo": "SIGNAL",
+            "detalhes": "REQ[6]#/GPI[0]"
+        },
+        "B8": {
+            "sinal": "REQ[3]#",
+            "tipo": "SIGNAL",
+            "detalhes": "REQ[3]#"
+        },
+        "B9": {
+            "sinal": "ACZ_SYNC",
+            "tipo": "SIGNAL",
+            "detalhes": "ACZ_SYNC"
+        },
+        "B10": {
+            "sinal": "ACZ_SDIN[2]",
+            "tipo": "SIGNAL",
+            "detalhes": "ACZ_SDIN[2]"
+        },
+        "B11": {
+            "sinal": "LAN_RSTSYNC",
+            "tipo": "SIGNAL",
+            "detalhes": "LAN_RSTSYNC"
+        },
+        "B12": {
+            "sinal": "EE_SHCLK",
+            "tipo": "SIGNAL",
+            "detalhes": "EE_SHCLK"
+        },
+        "B13": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "B14": {
+            "sinal": "USBP[7]P",
+            "tipo": "SIGNAL",
+            "detalhes": "USBP[7]P"
+        },
+        "B15": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "B16": {
+            "sinal": "USBP[5]N",
+            "tipo": "SIGNAL",
+            "detalhes": "USBP[5]N"
+        },
+        "B17": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "B18": {
+            "sinal": "USBP[3]P",
+            "tipo": "SIGNAL",
+            "detalhes": "USBP[3]P"
+        },
+        "B19": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "B20": {
+            "sinal": "USBP[1]P",
+            "tipo": "SIGNAL",
+            "detalhes": "USBP[1]P"
+        },
+        "B21": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "B22": {
+            "sinal": "USBRBIAS",
+            "tipo": "SIGNAL",
+            "detalhes": "USBRBIAS"
+        },
+        "B23": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "B24": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "B25": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "B26": {
+            "sinal": "OC[2]#",
+            "tipo": "SIGNAL",
+            "detalhes": "OC[2]#"
+        },
+        "B27": {
+            "sinal": "OC[1]#",
+            "tipo": "SIGNAL",
+            "detalhes": "OC[1]#"
+        },
+        "C1": {
+            "sinal": "GNT[0]#",
+            "tipo": "SIGNAL",
+            "detalhes": "GNT[0]#"
+        },
+        "C2": {
+            "sinal": "AD[2]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[2]"
+        },
+        "C3": {
+            "sinal": "DEVSEL#",
+            "tipo": "SIGNAL",
+            "detalhes": "DEVSEL#"
+        },
+        "C4": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "C5": {
+            "sinal": "PLOCK#",
+            "tipo": "SIGNAL",
+            "detalhes": "PLOCK#"
+        },
+        "C6": {
+            "sinal": "PIRQ[G]#/GPI[4]",
+            "tipo": "SIGNAL",
+            "detalhes": "PIRQ[G]#/GPI[4]"
+        },
+        "C7": {
+            "sinal": "PIRQ[F]#/GPI[3]",
+            "tipo": "SIGNAL",
+            "detalhes": "PIRQ[F]#/GPI[3]"
+        },
+        "C8": {
+            "sinal": "GNT[3]#",
+            "tipo": "SIGNAL",
+            "detalhes": "GNT[3]#"
+        },
+        "C9": {
+            "sinal": "ACZ_SDOUT",
+            "tipo": "SIGNAL",
+            "detalhes": "ACZ_SDOUT"
+        },
+        "C10": {
+            "sinal": "ACZ_BIT_CLK",
+            "tipo": "SIGNAL",
+            "detalhes": "ACZ_BIT_CLK"
+        },
+        "C11": {
+            "sinal": "LAN_TXD[1]",
+            "tipo": "SIGNAL",
+            "detalhes": "LAN_TXD[1]"
+        },
+        "C12": {
+            "sinal": "LAN_TXD[0]",
+            "tipo": "SIGNAL",
+            "detalhes": "LAN_TXD[0]"
+        },
+        "C13": {
+            "sinal": "LAN_RXD[2]",
+            "tipo": "SIGNAL",
+            "detalhes": "LAN_RXD[2]"
+        },
+        "C14": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "C15": {
+            "sinal": "USBP[6]N",
+            "tipo": "SIGNAL",
+            "detalhes": "USBP[6]N"
+        },
+        "C16": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "C17": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "C18": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "C19": {
+            "sinal": "USBP[2]P",
+            "tipo": "SIGNAL",
+            "detalhes": "USBP[2]P"
+        },
+        "C20": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "C21": {
+            "sinal": "USBP[0]N",
+            "tipo": "SIGNAL",
+            "detalhes": "USBP[0]N"
+        },
+        "C22": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "C23": {
+            "sinal": "OC[4]#/GPI[9]",
+            "tipo": "SIGNAL",
+            "detalhes": "OC[4]#/GPI[9]"
+        },
+        "C24": {
+            "sinal": "OC[7]#/GPI[15]",
+            "tipo": "SIGNAL",
+            "detalhes": "OC[7]#/GPI[15]"
+        },
+        "C26": {
+            "sinal": "OC[3]#",
+            "tipo": "SIGNAL",
+            "detalhes": "OC[3]#"
+        },
+        "C27": {
+            "sinal": "OC[0]#",
+            "tipo": "SIGNAL",
+            "detalhes": "OC[0]#"
+        },
+        "D1": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "D2": {
+            "sinal": "AD[11]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[11]"
+        },
+        "D3": {
+            "sinal": "AD[9]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[9]"
+        },
+        "D4": {
+            "sinal": "AD[18]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[18]"
+        },
+        "D5": {
+            "sinal": "AD[12]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[12]"
+        },
+        "D6": {
+            "sinal": "AD[7]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[7]"
+        },
+        "D7": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "D8": {
+            "sinal": "GNT[6]#/GPO[16]",
+            "tipo": "SIGNAL",
+            "detalhes": "GNT[6]#/GPO[16]"
+        },
+        "D9": {
+            "sinal": "PIRQ[E]#/GPI[2]",
+            "tipo": "SIGNAL",
+            "detalhes": "PIRQ[E]#/GPI[2]"
+        },
+        "D10": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "D11": {
+            "sinal": "EE_DOUT",
+            "tipo": "SIGNAL",
+            "detalhes": "EE_DOUT"
+        },
+        "D12": {
+            "sinal": "EE_CS",
+            "tipo": "SIGNAL",
+            "detalhes": "EE_CS"
+        },
+        "D13": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "D14": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "D15": {
+            "sinal": "USBP[6]P",
+            "tipo": "SIGNAL",
+            "detalhes": "USBP[6]P"
+        },
+        "D16": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "D17": {
+            "sinal": "USBP[4]P",
+            "tipo": "SIGNAL",
+            "detalhes": "USBP[4]P"
+        },
+        "D18": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "D19": {
+            "sinal": "USBP[2]N",
+            "tipo": "SIGNAL",
+            "detalhes": "USBP[2]N"
+        },
+        "D20": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "D21": {
+            "sinal": "USBP[0]P",
+            "tipo": "SIGNAL",
+            "detalhes": "USBP[0]P"
+        },
+        "D22": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "D23": {
+            "sinal": "OC[5]#/GPI[10]",
+            "tipo": "SIGNAL",
+            "detalhes": "OC[5]#/GPI[10]"
+        },
+        "D24": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "D25": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "D26": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "D27": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "E1": {
+            "sinal": "PAR",
+            "tipo": "SIGNAL",
+            "detalhes": "PAR"
+        },
+        "E2": {
+            "sinal": "AD[0]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[0]"
+        },
+        "E3": {
+            "sinal": "PERR#",
+            "tipo": "SIGNAL",
+            "detalhes": "PERR#"
+        },
+        "E4": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "E5": {
+            "sinal": "AD[1]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[1]"
+        },
+        "E6": {
+            "sinal": "AD[8]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[8]"
+        },
+        "E7": {
+            "sinal": "GNT[4]#/GPO[48]",
+            "tipo": "SIGNAL",
+            "detalhes": "GNT[4]#/GPO[48]"
+        },
+        "E9": {
+            "sinal": "AD[5]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[5]"
+        },
+        "E10": {
+            "sinal": "CLK14",
+            "tipo": "SIGNAL",
+            "detalhes": "CLK14"
+        },
+        "E11": {
+            "sinal": "LAN_RXD[1]",
+            "tipo": "SIGNAL",
+            "detalhes": "LAN_RXD[1]"
+        },
+        "E12": {
+            "sinal": "LAN_RXD[0]",
+            "tipo": "SIGNAL",
+            "detalhes": "LAN_RXD[0]"
+        },
+        "E13": {
+            "sinal": "LAN_TXD[2]",
+            "tipo": "SIGNAL",
+            "detalhes": "LAN_TXD[2]"
+        },
+        "E14": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "E15": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "E16": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "E17": {
+            "sinal": "USBP[4]N",
+            "tipo": "SIGNAL",
+            "detalhes": "USBP[4]N"
+        },
+        "E18": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "E19": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "E20": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "E21": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "E22": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "E23": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "E24": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "E25": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "E26": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "E27": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "F1": {
+            "sinal": "GNT[2]#",
+            "tipo": "SIGNAL",
+            "detalhes": "GNT[2]#"
+        },
+        "F2": {
+            "sinal": "AD[6]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[6]"
+        },
+        "F3": {
+            "sinal": "AD[4]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[4]"
+        },
+        "F4": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "F5": {
+            "sinal": "AD[3]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[3]"
+        },
+        "F6": {
+            "sinal": "GNT[5]#/GPO[17]",
+            "tipo": "SIGNAL",
+            "detalhes": "GNT[5]#/GPO[17]"
+        },
+        "F7": {
+            "sinal": "REQ[4]#/GPI[40]",
+            "tipo": "SIGNAL",
+            "detalhes": "REQ[4]#/GPI[40]"
+        },
+        "F8": {
+            "sinal": "SPKR",
+            "tipo": "SIGNAL",
+            "detalhes": "SPKR"
+        },
+        "F9": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "F10": {
+            "sinal": "ACZ_SDIN[1]",
+            "tipo": "SIGNAL",
+            "detalhes": "ACZ_SDIN[1]"
+        },
+        "F11": {
+            "sinal": "ACZ_SDIN[0]",
+            "tipo": "SIGNAL",
+            "detalhes": "ACZ_SDIN[0]"
+        },
+        "F12": {
+            "sinal": "LAN_CLK",
+            "tipo": "SIGNAL",
+            "detalhes": "LAN_CLK"
+        },
+        "F13": {
+            "sinal": "EE_DIN",
+            "tipo": "SIGNAL",
+            "detalhes": "EE_DIN"
+        },
+        "F14": {
+            "sinal": "VccSus3_3‡",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3‡"
+        },
+        "F15": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "F16": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "F17": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "F18": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "F19": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "F20": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "F21": {
+            "sinal": "V5REF_Sus",
+            "tipo": "SIGNAL",
+            "detalhes": "V5REF_Sus"
+        },
+        "F22": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "F23": {
+            "sinal": "DMI_IRCOMP",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI_IRCOMP"
+        },
+        "F24": {
+            "sinal": "DMI_ZCOMP",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI_ZCOMP"
+        },
+        "F25": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "F26": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "F27": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "G1": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "G2": {
+            "sinal": "C/BE[3]#",
+            "tipo": "SIGNAL",
+            "detalhes": "C/BE[3]#"
+        },
+        "G3": {
+            "sinal": "AD[20]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[20]"
+        },
+        "G4": {
+            "sinal": "C/BE[2]#",
+            "tipo": "SIGNAL",
+            "detalhes": "C/BE[2]#"
+        },
+        "G5": {
+            "sinal": "SERR#",
+            "tipo": "SIGNAL",
+            "detalhes": "SERR#"
+        },
+        "G6": {
+            "sinal": "PCICLK",
+            "tipo": "SIGNAL",
+            "detalhes": "PCICLK"
+        },
+        "G7": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "G8": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "G9": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "G10": {
+            "sinal": "VccSus1_5‡",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus1_5‡"
+        },
+        "G11": {
+            "sinal": "VccSus1_5‡",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus1_5‡"
+        },
+        "G13": {
+            "sinal": "VccSus3_3‡",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3‡"
+        },
+        "G14": {
+            "sinal": "VccSus3_3‡",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3‡"
+        },
+        "G15": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "G16": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "G17": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "G18": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "G19": {
+            "sinal": "VccSus1_5",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus1_5"
+        },
+        "G20": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "G21": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "G22": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "G23": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "G24": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "G25": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "G26": {
+            "sinal": "PETp[1]",
+            "tipo": "SIGNAL",
+            "detalhes": "PETp[1]"
+        },
+        "G27": {
+            "sinal": "PETn[1]",
+            "tipo": "SIGNAL",
+            "detalhes": "PETn[1]"
+        },
+        "H1": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "H2": {
+            "sinal": "AD[22]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[22]"
+        },
+        "H3": {
+            "sinal": "AD[13]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[13]"
+        },
+        "H4": {
+            "sinal": "AD[21]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[21]"
+        },
+        "H5": {
+            "sinal": "AD[23]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[23]"
+        },
+        "H6": {
+            "sinal": "C/BE[1]#",
+            "tipo": "SIGNAL",
+            "detalhes": "C/BE[1]#"
+        },
+        "H7": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "H21": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "H22": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "H23": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "H24": {
+            "sinal": "PERp[1]",
+            "tipo": "SIGNAL",
+            "detalhes": "PERp[1]"
+        },
+        "H25": {
+            "sinal": "PERn[1]",
+            "tipo": "SIGNAL",
+            "detalhes": "PERn[1]"
+        },
+        "H26": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "H27": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "J1": {
+            "sinal": "STOP#",
+            "tipo": "SIGNAL",
+            "detalhes": "STOP#"
+        },
+        "J2": {
+            "sinal": "TRDY#",
+            "tipo": "SIGNAL",
+            "detalhes": "TRDY#"
+        },
+        "J3": {
+            "sinal": "FRAME#",
+            "tipo": "SIGNAL",
+            "detalhes": "FRAME#"
+        },
+        "J4": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "J5": {
+            "sinal": "AD[15]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[15]"
+        },
+        "J6": {
+            "sinal": "C/BE[0]#",
+            "tipo": "SIGNAL",
+            "detalhes": "C/BE[0]#"
+        },
+        "J7": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "J21": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "J22": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "J23": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "J24": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "J25": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "J26": {
+            "sinal": "PETp[2]",
+            "tipo": "SIGNAL",
+            "detalhes": "PETp[2]"
+        },
+        "J27": {
+            "sinal": "PETn[2]",
+            "tipo": "SIGNAL",
+            "detalhes": "PETn[2]"
+        },
+        "K1": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "K2": {
+            "sinal": "AD[16]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[16]"
+        },
+        "K3": {
+            "sinal": "AD[28]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[28]"
+        },
+        "K4": {
+            "sinal": "AD[31]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[31]"
+        },
+        "K5": {
+            "sinal": "AD[17]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[17]"
+        },
+        "K6": {
+            "sinal": "AD[27]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[27]"
+        },
+        "K7": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "K21": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "K22": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "K23": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "K24": {
+            "sinal": "PERp[2]",
+            "tipo": "SIGNAL",
+            "detalhes": "PERp[2]"
+        },
+        "K25": {
+            "sinal": "PERn[2]",
+            "tipo": "SIGNAL",
+            "detalhes": "PERn[2]"
+        },
+        "K26": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "K27": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "L1": {
+            "sinal": "AD[30]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[30]"
+        },
+        "L2": {
+            "sinal": "PIRQ[B]#",
+            "tipo": "SIGNAL",
+            "detalhes": "PIRQ[B]#"
+        },
+        "L3": {
+            "sinal": "PIRQ[D]#",
+            "tipo": "SIGNAL",
+            "detalhes": "PIRQ[D]#"
+        },
+        "L4": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "L5": {
+            "sinal": "REQ[0]#",
+            "tipo": "SIGNAL",
+            "detalhes": "REQ[0]#"
+        },
+        "L6": {
+            "sinal": "AD[19]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[19]"
+        },
+        "L7": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "L11": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "L12": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "L13": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "L14": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "L15": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "L16": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "L17": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "L21": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "L22": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "L23": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "L24": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "L25": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "L26": {
+            "sinal": "PETp[3]",
+            "tipo": "SIGNAL",
+            "detalhes": "PETp[3]"
+        },
+        "L27": {
+            "sinal": "PETn[3]",
+            "tipo": "SIGNAL",
+            "detalhes": "PETn[3]"
+        },
+        "M1": {
+            "sinal": "PIRQ[C]#",
+            "tipo": "SIGNAL",
+            "detalhes": "PIRQ[C]#"
+        },
+        "M2": {
+            "sinal": "GPI[12]",
+            "tipo": "SIGNAL",
+            "detalhes": "GPI[12]"
+        },
+        "M3": {
+            "sinal": "PIRQ[H]#/GPI[5]",
+            "tipo": "SIGNAL",
+            "detalhes": "PIRQ[H]#/GPI[5]"
+        },
+        "M4": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "M5": {
+            "sinal": "REQ[2]#",
+            "tipo": "SIGNAL",
+            "detalhes": "REQ[2]#"
+        },
+        "M6": {
+            "sinal": "AD[25]",
+            "tipo": "SIGNAL",
+            "detalhes": "AD[25]"
+        },
+        "M7": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "M11": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "M12": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "M13": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "M14": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "M15": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "M16": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "M17": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "M21": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "M22": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "M23": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "M24": {
+            "sinal": "PERp[3]",
+            "tipo": "SIGNAL",
+            "detalhes": "PERp[3]"
+        },
+        "M25": {
+            "sinal": "PERn[3]",
+            "tipo": "SIGNAL",
+            "detalhes": "PERn[3]"
+        },
+        "M26": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "M27": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "N1": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "N2": {
+            "sinal": "PIRQ[A]#",
+            "tipo": "SIGNAL",
+            "detalhes": "PIRQ[A]#"
+        },
+        "N3": {
+            "sinal": "LAD[1]/FWH[1]",
+            "tipo": "SIGNAL",
+            "detalhes": "LAD[1]/FWH[1]"
+        },
+        "N4": {
+            "sinal": "LAD[3]/FWH[3]",
+            "tipo": "SIGNAL",
+            "detalhes": "LAD[3]/FWH[3]"
+        },
+        "N5": {
+            "sinal": "LAD[2]/FWH[2]",
+            "tipo": "SIGNAL",
+            "detalhes": "LAD[2]/FWH[2]"
+        },
+        "N6": {
+            "sinal": "LDRQ[0]#",
+            "tipo": "SIGNAL",
+            "detalhes": "LDRQ[0]#"
+        },
+        "N7": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "N11": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "N12": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "N13": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "N14": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "N15": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "N16": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "N17": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "N21": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "N22": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "N23": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "N24": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "N25": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "N26": {
+            "sinal": "PETp[4]",
+            "tipo": "SIGNAL",
+            "detalhes": "PETp[4]"
+        },
+        "N27": {
+            "sinal": "PETn[4]",
+            "tipo": "SIGNAL",
+            "detalhes": "PETn[4]"
+        },
+        "P1": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "P2": {
+            "sinal": "LAD[0]/FWH[0]",
+            "tipo": "SIGNAL",
+            "detalhes": "LAD[0]/FWH[0]"
+        },
+        "P3": {
+            "sinal": "LFRAME#/FWH[4]",
+            "tipo": "SIGNAL",
+            "detalhes": "LFRAME#/FWH[4]"
+        },
+        "P4": {
+            "sinal": "LDRQ[1]#/GPI[41]",
+            "tipo": "SIGNAL",
+            "detalhes": "LDRQ[1]#/GPI[41]"
+        },
+        "P5": {
+            "sinal": "GPIO[25]",
+            "tipo": "SIGNAL",
+            "detalhes": "GPIO[25]"
+        },
+        "P6": {
+            "sinal": "PME#",
+            "tipo": "SIGNAL",
+            "detalhes": "PME#"
+        },
+        "P7": {
+            "sinal": "Vcc2_5",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc2_5"
+        },
+        "P11": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "P12": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "P13": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "P14": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "P15": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "P17": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "P21": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "P22": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "P23": {
+            "sinal": "PERp[4]",
+            "tipo": "SIGNAL",
+            "detalhes": "PERp[4]"
+        },
+        "P24": {
+            "sinal": "PERn[4]",
+            "tipo": "SIGNAL",
+            "detalhes": "PERn[4]"
+        },
+        "P25": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "P26": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "P27": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "R1": {
+            "sinal": "GPI[8]",
+            "tipo": "SIGNAL",
+            "detalhes": "GPI[8]"
+        },
+        "R2": {
+            "sinal": "PCIRST#",
+            "tipo": "SIGNAL",
+            "detalhes": "PCIRST#"
+        },
+        "R3": {
+            "sinal": "GPIO[27]",
+            "tipo": "SIGNAL",
+            "detalhes": "GPIO[27]"
+        },
+        "R4": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "R5": {
+            "sinal": "PLTRST#",
+            "tipo": "SIGNAL",
+            "detalhes": "PLTRST#"
+        },
+        "R6": {
+            "sinal": "GPI[13]",
+            "tipo": "SIGNAL",
+            "detalhes": "GPI[13]"
+        },
+        "R7": {
+            "sinal": "VccSus1_5",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus1_5"
+        },
+        "R11": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "R12": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "R13": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "R14": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "R15": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "R16": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "R17": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "R21": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "R23": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "R24": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "R25": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "R26": {
+            "sinal": "DMI[0]TXP",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI[0]TXP"
+        },
+        "R27": {
+            "sinal": "DMI[0]TXN",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI[0]TXN"
+        },
+        "T1": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "T2": {
+            "sinal": "RI#",
+            "tipo": "SIGNAL",
+            "detalhes": "RI#"
+        },
+        "T3": {
+            "sinal": "GPIO[28]",
+            "tipo": "SIGNAL",
+            "detalhes": "GPIO[28]"
+        },
+        "T4": {
+            "sinal": "SLP_S3#",
+            "tipo": "SIGNAL",
+            "detalhes": "SLP_S3#"
+        },
+        "T5": {
+            "sinal": "SLP_S4#",
+            "tipo": "SIGNAL",
+            "detalhes": "SLP_S4#"
+        },
+        "T7": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "T11": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "T12": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "T13": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "T14": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "T15": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "T16": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "T17": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "T21": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "T22": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "T23": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "T25": {
+            "sinal": "DMI[0]RXN",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI[0]RXN"
+        },
+        "T26": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "T27": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "U1": {
+            "sinal": "PWRBTN#",
+            "tipo": "SIGNAL",
+            "detalhes": "PWRBTN#"
+        },
+        "U2": {
+            "sinal": "SYS_RESET#",
+            "tipo": "SIGNAL",
+            "detalhes": "SYS_RESET#"
+        },
+        "U3": {
+            "sinal": "TP[3]",
+            "tipo": "SIGNAL",
+            "detalhes": "TP[3]"
+        },
+        "U4": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "U6": {
+            "sinal": "SMLINK[1]",
+            "tipo": "SIGNAL",
+            "detalhes": "SMLINK[1]"
+        },
+        "U7": {
+            "sinal": "VccSus1_5",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus1_5"
+        },
+        "U11": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "U12": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "U13": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "U14": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "U15": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "U16": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "U17": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "U21": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "U22": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "U23": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "U24": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "U25": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "U26": {
+            "sinal": "DMI[1]TXP",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI[1]TXP"
+        },
+        "U27": {
+            "sinal": "DMI[1]TXN",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI[1]TXN"
+        },
+        "V1": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "V3": {
+            "sinal": "GPIO[24]",
+            "tipo": "SIGNAL",
+            "detalhes": "GPIO[24]"
+        },
+        "V4": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "V5": {
+            "sinal": "LAN_RST#",
+            "tipo": "SIGNAL",
+            "detalhes": "LAN_RST#"
+        },
+        "V6": {
+            "sinal": "SUSCLK",
+            "tipo": "SIGNAL",
+            "detalhes": "SUSCLK"
+        },
+        "V7": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "V21": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "V22": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "V23": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "V24": {
+            "sinal": "DMI[1]RXP",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI[1]RXP"
+        },
+        "V25": {
+            "sinal": "DMI[1]RXN",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI[1]RXN"
+        },
+        "V26": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "V27": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "W1": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "W2": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "W3": {
+            "sinal": "SUS_STAT#/LPCPD#",
+            "tipo": "SIGNAL",
+            "detalhes": "SUS_STAT#/LPCPD#"
+        },
+        "W4": {
+            "sinal": "SMLINK[0]",
+            "tipo": "SIGNAL",
+            "detalhes": "SMLINK[0]"
+        },
+        "W5": {
+            "sinal": "SMBDATA",
+            "tipo": "SIGNAL",
+            "detalhes": "SMBDATA"
+        },
+        "W6": {
+            "sinal": "SMBALERT#/GPI[11]",
+            "tipo": "SIGNAL",
+            "detalhes": "SMBALERT#/GPI[11]"
+        },
+        "W7": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "W21": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "W22": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "W23": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "W24": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "W25": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "W26": {
+            "sinal": "DMI[2]TXP",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI[2]TXP"
+        },
+        "W27": {
+            "sinal": "DMI[2]TXN",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI[2]TXN"
+        },
+        "Y1": {
+            "sinal": "RTCX1",
+            "tipo": "SIGNAL",
+            "detalhes": "RTCX1"
+        },
+        "Y2": {
+            "sinal": "RTCX2",
+            "tipo": "SIGNAL",
+            "detalhes": "RTCX2"
+        },
+        "Y3": {
+            "sinal": "RSMRST#",
+            "tipo": "SIGNAL",
+            "detalhes": "RSMRST#"
+        },
+        "Y4": {
+            "sinal": "SMBCLK",
+            "tipo": "SIGNAL",
+            "detalhes": "SMBCLK"
+        },
+        "Y5": {
+            "sinal": "LINKALERT#",
+            "tipo": "SIGNAL",
+            "detalhes": "LINKALERT#"
+        },
+        "Y6": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "Y7": {
+            "sinal": "VccSus3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSus3_3"
+        },
+        "Y21": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "Y22": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "Y23": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "Y24": {
+            "sinal": "DMI[2]RXP",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI[2]RXP"
+        },
+        "Y25": {
+            "sinal": "DMI[2]RXN",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI[2]RXN"
+        },
+        "Y26": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "Y27": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AA1": {
+            "sinal": "PWROK",
+            "tipo": "SIGNAL",
+            "detalhes": "PWROK"
+        },
+        "AA2": {
+            "sinal": "RTCRST#",
+            "tipo": "SIGNAL",
+            "detalhes": "RTCRST#"
+        },
+        "AA3": {
+            "sinal": "INTRUDER#",
+            "tipo": "SIGNAL",
+            "detalhes": "INTRUDER#"
+        },
+        "AA5": {
+            "sinal": "INTVRMEN",
+            "tipo": "SIGNAL",
+            "detalhes": "INTVRMEN"
+        },
+        "AA6": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AA7": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AA8": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AA9": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AA10": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "AA11": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AA12": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "AA13": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AA14": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "AA15": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "AA16": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AA17": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "AA18": {
+            "sinal": "V5REF",
+            "tipo": "SIGNAL",
+            "detalhes": "V5REF"
+        },
+        "AA19": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AA20": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AA21": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AA22": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "AA23": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "AA24": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "AA25": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "AA26": {
+            "sinal": "DMI[3]TXP",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI[3]TXP"
+        },
+        "AA27": {
+            "sinal": "DMI[3]TXN",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI[3]TXN"
+        },
+        "AB1": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AB2": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AB3": {
+            "sinal": "VccRTC",
+            "tipo": "SIGNAL",
+            "detalhes": "VccRTC"
+        },
+        "AB4": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AB5": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AB7": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AB8": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AB9": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AB10": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AB11": {
+            "sinal": "DD[7]",
+            "tipo": "SIGNAL",
+            "detalhes": "DD[7]"
+        },
+        "AB12": {
+            "sinal": "DD[10]",
+            "tipo": "SIGNAL",
+            "detalhes": "DD[10]"
+        },
+        "AB13": {
+            "sinal": "DD[11]",
+            "tipo": "SIGNAL",
+            "detalhes": "DD[11]"
+        },
+        "AB14": {
+            "sinal": "DDREQ",
+            "tipo": "SIGNAL",
+            "detalhes": "DDREQ"
+        },
+        "AB15": {
+            "sinal": "DDACK#",
+            "tipo": "SIGNAL",
+            "detalhes": "DDACK#"
+        },
+        "AB16": {
+            "sinal": "IDEIRQ",
+            "tipo": "SIGNAL",
+            "detalhes": "IDEIRQ"
+        },
+        "AB17": {
+            "sinal": "DA[1]",
+            "tipo": "SIGNAL",
+            "detalhes": "DA[1]"
+        },
+        "AB18": {
+            "sinal": "Vcc2_5",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc2_5"
+        },
+        "AB19": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AB20": {
+            "sinal": "SERIRQ",
+            "tipo": "SIGNAL",
+            "detalhes": "SERIRQ"
+        },
+        "AB21": {
+            "sinal": "GPO[19]",
+            "tipo": "SIGNAL",
+            "detalhes": "GPO[19]"
+        },
+        "AB22": {
+            "sinal": "V_CPU_IO",
+            "tipo": "SIGNAL",
+            "detalhes": "V_CPU_IO"
+        },
+        "AB23": {
+            "sinal": "DMI[3]RXP",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI[3]RXP"
+        },
+        "AB24": {
+            "sinal": "DMI[3]RXN",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI[3]RXN"
+        },
+        "AB25": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "AB26": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "AB27": {
+            "sinal": "Vcc1_5_B",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_B"
+        },
+        "AC1": {
+            "sinal": "SATA_CLKP",
+            "tipo": "SIGNAL",
+            "detalhes": "SATA_CLKP"
+        },
+        "AC2": {
+            "sinal": "SATA_CLKN",
+            "tipo": "SIGNAL",
+            "detalhes": "SATA_CLKN"
+        },
+        "AC3": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AC4": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AC5": {
+            "sinal": "RESERVED†",
+            "tipo": "SIGNAL",
+            "detalhes": "RESERVED†"
+        },
+        "AC6": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AC7": {
+            "sinal": "SATA[2]RXP",
+            "tipo": "SIGNAL",
+            "detalhes": "SATA[2]RXP"
+        },
+        "AC8": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AC9": {
+            "sinal": "RESERVED†",
+            "tipo": "SIGNAL",
+            "detalhes": "RESERVED†"
+        },
+        "AC10": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AC11": {
+            "sinal": "DD[5]",
+            "tipo": "SIGNAL",
+            "detalhes": "DD[5]"
+        },
+        "AC12": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AC13": {
+            "sinal": "DD[12]",
+            "tipo": "SIGNAL",
+            "detalhes": "DD[12]"
+        },
+        "AC14": {
+            "sinal": "DIOW#",
+            "tipo": "SIGNAL",
+            "detalhes": "DIOW#"
+        },
+        "AC15": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "AC16": {
+            "sinal": "DA[0]",
+            "tipo": "SIGNAL",
+            "detalhes": "DA[0]"
+        },
+        "AC17": {
+            "sinal": "DA[2]",
+            "tipo": "SIGNAL",
+            "detalhes": "DA[2]"
+        },
+        "AC18": {
+            "sinal": "GPIO[34]",
+            "tipo": "SIGNAL",
+            "detalhes": "GPIO[34]"
+        },
+        "AC19": {
+            "sinal": "SATALED#",
+            "tipo": "SIGNAL",
+            "detalhes": "SATALED#"
+        },
+        "AC20": {
+            "sinal": "THRM#",
+            "tipo": "SIGNAL",
+            "detalhes": "THRM#"
+        },
+        "AC22": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AC23": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AC24": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AC25": {
+            "sinal": "DMI_CLKP",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI_CLKP"
+        },
+        "AC26": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AC27": {
+            "sinal": "VccDMIPLL",
+            "tipo": "SIGNAL",
+            "detalhes": "VccDMIPLL"
+        },
+        "AD1": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AD2": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AD3": {
+            "sinal": "SATA[0]RXP",
+            "tipo": "SIGNAL",
+            "detalhes": "SATA[0]RXP"
+        },
+        "AD4": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AD5": {
+            "sinal": "RESERVED†",
+            "tipo": "SIGNAL",
+            "detalhes": "RESERVED†"
+        },
+        "AD6": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AD7": {
+            "sinal": "SATA[2]RXN",
+            "tipo": "SIGNAL",
+            "detalhes": "SATA[2]RXN"
+        },
+        "AD8": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AD9": {
+            "sinal": "RESERVED†",
+            "tipo": "SIGNAL",
+            "detalhes": "RESERVED†"
+        },
+        "AD10": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AD11": {
+            "sinal": "DD[6]",
+            "tipo": "SIGNAL",
+            "detalhes": "DD[6]"
+        },
+        "AD12": {
+            "sinal": "DD[3]",
+            "tipo": "SIGNAL",
+            "detalhes": "DD[3]"
+        },
+        "AD13": {
+            "sinal": "DD[15]",
+            "tipo": "SIGNAL",
+            "detalhes": "DD[15]"
+        },
+        "AD14": {
+            "sinal": "DD[0]",
+            "tipo": "SIGNAL",
+            "detalhes": "DD[0]"
+        },
+        "AD15": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AD16": {
+            "sinal": "DCS1#",
+            "tipo": "SIGNAL",
+            "detalhes": "DCS1#"
+        },
+        "AD17": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "AD18": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AD21": {
+            "sinal": "GPO[23]",
+            "tipo": "SIGNAL",
+            "detalhes": "GPO[23]"
+        },
+        "AD22": {
+            "sinal": "GPO[20]‡",
+            "tipo": "SIGNAL",
+            "detalhes": "GPO[20]‡"
+        },
+        "AD23": {
+            "sinal": "RCIN#",
+            "tipo": "SIGNAL",
+            "detalhes": "RCIN#"
+        },
+        "AD24": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AD25": {
+            "sinal": "DMI_CLKN",
+            "tipo": "SIGNAL",
+            "detalhes": "DMI_CLKN"
+        },
+        "AD26": {
+            "sinal": "V_CPU_IO",
+            "tipo": "SIGNAL",
+            "detalhes": "V_CPU_IO"
+        },
+        "AE1": {
+            "sinal": "VccSATAPLL",
+            "tipo": "SIGNAL",
+            "detalhes": "VccSATAPLL"
+        },
+        "AE2": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AE3": {
+            "sinal": "SATA[0]RXN",
+            "tipo": "SIGNAL",
+            "detalhes": "SATA[0]RXN"
+        },
+        "AE4": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AE5": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AE6": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AE7": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AE8": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AE9": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AE10": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AE11": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AE12": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AE13": {
+            "sinal": "DD[8]",
+            "tipo": "SIGNAL",
+            "detalhes": "DD[8]"
+        },
+        "AE14": {
+            "sinal": "DD[4]",
+            "tipo": "SIGNAL",
+            "detalhes": "DD[4]"
+        },
+        "AE15": {
+            "sinal": "DD[13]",
+            "tipo": "SIGNAL",
+            "detalhes": "DD[13]"
+        },
+        "AE16": {
+            "sinal": "DIOR#",
+            "tipo": "SIGNAL",
+            "detalhes": "DIOR#"
+        },
+        "AE17": {
+            "sinal": "DCS3#",
+            "tipo": "SIGNAL",
+            "detalhes": "DCS3#"
+        },
+        "AE18": {
+            "sinal": "SATA[1]GP‡/GPI[29]",
+            "tipo": "SIGNAL",
+            "detalhes": "SATA[1]GP‡/GPI[29]"
+        },
+        "AE19": {
+            "sinal": "GPI[7]",
+            "tipo": "SIGNAL",
+            "detalhes": "GPI[7]"
+        },
+        "AE21": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AE22": {
+            "sinal": "INIT3_3V#",
+            "tipo": "SIGNAL",
+            "detalhes": "INIT3_3V#"
+        },
+        "AE23": {
+            "sinal": "THRMTRIP#",
+            "tipo": "SIGNAL",
+            "detalhes": "THRMTRIP#"
+        },
+        "AE25": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AE26": {
+            "sinal": "STPCLK#",
+            "tipo": "SIGNAL",
+            "detalhes": "STPCLK#"
+        },
+        "AE27": {
+            "sinal": "CPUSLP#",
+            "tipo": "SIGNAL",
+            "detalhes": "CPUSLP#"
+        },
+        "AF1": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AF2": {
+            "sinal": "SATA[0]TXP",
+            "tipo": "SIGNAL",
+            "detalhes": "SATA[0]TXP"
+        },
+        "AF3": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AF4": {
+            "sinal": "RESERVED†",
+            "tipo": "SIGNAL",
+            "detalhes": "RESERVED†"
+        },
+        "AF5": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AF6": {
+            "sinal": "SATA[2]TXN",
+            "tipo": "SIGNAL",
+            "detalhes": "SATA[2]TXN"
+        },
+        "AF7": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AF8": {
+            "sinal": "RESERVED†",
+            "tipo": "SIGNAL",
+            "detalhes": "RESERVED†"
+        },
+        "AF9": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AF10": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AF11": {
+            "sinal": "SATARBIAS",
+            "tipo": "SIGNAL",
+            "detalhes": "SATARBIAS"
+        },
+        "AF12": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AF13": {
+            "sinal": "DD[9]",
+            "tipo": "SIGNAL",
+            "detalhes": "DD[9]"
+        },
+        "AF14": {
+            "sinal": "DD[2]",
+            "tipo": "SIGNAL",
+            "detalhes": "DD[2]"
+        },
+        "AF15": {
+            "sinal": "DD[1]",
+            "tipo": "SIGNAL",
+            "detalhes": "DD[1]"
+        },
+        "AF16": {
+            "sinal": "IORDY",
+            "tipo": "SIGNAL",
+            "detalhes": "IORDY"
+        },
+        "AF17": {
+            "sinal": "SATA[0]GP/GPI[26]",
+            "tipo": "SIGNAL",
+            "detalhes": "SATA[0]GP/GPI[26]"
+        },
+        "AF18": {
+            "sinal": "SATA[2]GP/GPI[30]",
+            "tipo": "SIGNAL",
+            "detalhes": "SATA[2]GP/GPI[30]"
+        },
+        "AF20": {
+            "sinal": "GPIO[33]",
+            "tipo": "SIGNAL",
+            "detalhes": "GPIO[33]"
+        },
+        "AF21": {
+            "sinal": "VRMPWRGD",
+            "tipo": "SIGNAL",
+            "detalhes": "VRMPWRGD"
+        },
+        "AF22": {
+            "sinal": "A20GATE",
+            "tipo": "SIGNAL",
+            "detalhes": "A20GATE"
+        },
+        "AF23": {
+            "sinal": "A20M#",
+            "tipo": "SIGNAL",
+            "detalhes": "A20M#"
+        },
+        "AF24": {
+            "sinal": "FERR#",
+            "tipo": "SIGNAL",
+            "detalhes": "FERR#"
+        },
+        "AF25": {
+            "sinal": "NMI",
+            "tipo": "SIGNAL",
+            "detalhes": "NMI"
+        },
+        "AF26": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AF27": {
+            "sinal": "INIT#",
+            "tipo": "SIGNAL",
+            "detalhes": "INIT#"
+        },
+        "AG1": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AG2": {
+            "sinal": "SATA[0]TXN",
+            "tipo": "SIGNAL",
+            "detalhes": "SATA[0]TXN"
+        },
+        "AG3": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AG4": {
+            "sinal": "RESERVED†",
+            "tipo": "SIGNAL",
+            "detalhes": "RESERVED†"
+        },
+        "AG5": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AG6": {
+            "sinal": "SATA[2]TXP",
+            "tipo": "SIGNAL",
+            "detalhes": "SATA[2]TXP"
+        },
+        "AG8": {
+            "sinal": "RESERVED†",
+            "tipo": "SIGNAL",
+            "detalhes": "RESERVED†"
+        },
+        "AG9": {
+            "sinal": "Vcc1_5_A",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc1_5_A"
+        },
+        "AG10": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "AG11": {
+            "sinal": "SATARBIAS#",
+            "tipo": "SIGNAL",
+            "detalhes": "SATARBIAS#"
+        },
+        "AG12": {
+            "sinal": "§gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "§gnd"
+        },
+        "AG13": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "AG14": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AG15": {
+            "sinal": "DD[14]",
+            "tipo": "SIGNAL",
+            "detalhes": "DD[14]"
+        },
+        "AG16": {
+            "sinal": "Vcc3_3",
+            "tipo": "SIGNAL",
+            "detalhes": "Vcc3_3"
+        },
+        "AG17": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AG18": {
+            "sinal": "SATA[3]GP‡/GPI[31]",
+            "tipo": "SIGNAL",
+            "detalhes": "SATA[3]GP‡/GPI[31]"
+        },
+        "AG20": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AG21": {
+            "sinal": "MCH_SYNC#",
+            "tipo": "SIGNAL",
+            "detalhes": "MCH_SYNC#"
+        },
+        "AG22": {
+            "sinal": "gnd",
+            "tipo": "SIGNAL",
+            "detalhes": "gnd"
+        },
+        "AG23": {
+            "sinal": "V_CPU_IO",
+            "tipo": "SIGNAL",
+            "detalhes": "V_CPU_IO"
+        },
+        "AG24": {
+            "sinal": "INTR",
+            "tipo": "SIGNAL",
+            "detalhes": "INTR"
+        },
+        "AG26": {
+            "sinal": "IGNNE#",
+            "tipo": "SIGNAL",
+            "detalhes": "IGNNE#"
+        },
+        "AG27": {
+            "sinal": "SMI#",
+            "tipo": "SIGNAL",
+            "detalhes": "SMI#"
+        }
+    }
+}
