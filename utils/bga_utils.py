@@ -1,5 +1,7 @@
 import re
 
+from models.pad_model import PadModel
+
 
 BANCO_PADRAO = {
     "chip_config": {"colunas": 26, "letras": [], "vazio": []},
@@ -24,21 +26,8 @@ def normalizar_banco(dados):
     return dados
 
 
-def identificar_tipo_sinal(sinal):
-    if any(x in sinal for x in ["VCC", "VDD"]):
-        return "VCC"
-    if any(x in sinal for x in ["GND", "VSS"]):
-        return "GND"
-    return "SIGNAL"
-
-
 def criar_info_pad(conteudo):
-    sinal = conteudo.split("\n")[0].upper() if conteudo else "NC"
-    return {
-        "sinal": sinal,
-        "tipo": identificar_tipo_sinal(sinal),
-        "detalhes": conteudo,
-    }
+    return PadModel.from_conteudo(conteudo).to_dict()
 
 
 def coordenada_para_indices(coord, letras):

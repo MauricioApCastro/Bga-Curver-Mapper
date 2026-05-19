@@ -2,7 +2,7 @@ import re
 
 import pandas as pd
 
-from utils.bga_utils import identificar_tipo_sinal
+from models.pad_model import PadModel
 
 
 def importar_excel(caminho):
@@ -16,12 +16,7 @@ def importar_excel(caminho):
             continue
 
         infos = [str(valor) for valor in row[1:] if pd.notna(valor)]
-        sinal = infos[0].upper() if infos else "NC"
-        pinagem[coord] = {
-            "sinal": sinal,
-            "tipo": identificar_tipo_sinal(sinal),
-            "detalhes": "\n".join(infos),
-        }
+        pinagem[coord] = PadModel.from_infos(infos).to_dict()
         letras_detectadas.add(match.group(1))
         maior_coluna = max(maior_coluna, int(match.group(2)))
 

@@ -1,6 +1,7 @@
 from PyQt5.QtCore import QEasingCurve, QPropertyAnimation
 from PyQt5.QtWidgets import QGraphicsOpacityEffect, QPushButton
 
+from models.pad_model import PadModel
 from utils.styles import COLORS
 
 
@@ -8,7 +9,7 @@ class BGAPad(QPushButton):
     def __init__(self, coord, info=None):
         super().__init__(coord)
         self.coord = coord
-        self.info = info or {"sinal": "NC", "tipo": "DEFAULT", "detalhes": "NC"}
+        self.info = info or PadModel().to_dict()
         self.setFixedSize(28, 28)
         self.visivel = True
         self.destacado = False
@@ -59,4 +60,3 @@ class BGAPad(QPushButton):
             """)
         except RuntimeError:
             pass
-
