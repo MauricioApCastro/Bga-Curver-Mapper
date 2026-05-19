@@ -2,7 +2,6 @@
 
 Aplicativo em PyQt5 para visualizar, importar e editar mapeamentos de pinagem BGA a partir de arquivos JSON e Excel.
 
-## Screenshot
 
 <img src="assets/screenshoots/main_screen.png" alt="Tela principal do BGA Curve Mapper">
 
