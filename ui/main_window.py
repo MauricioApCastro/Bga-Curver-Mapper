@@ -3,27 +3,17 @@ import os
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import (
-    QCheckBox,
-    QComboBox,
-    QFrame,
     QGridLayout,
     QHBoxLayout,
-    QLabel,
-    QLineEdit,
-    QListWidget,
     QMainWindow,
     QMessageBox,
-    QPushButton,
     QScrollArea,
-    QTextEdit,
-    QVBoxLayout,
     QWidget,
 )
 
 from services.excel_service import importar_excel
-from services.file_service import garantir_pastas, listar_arquivos
-from services.json_service import carregar_json, salvar_json
-from ui.widgets import BGAPad
+from services.file_service import carregar_json, garantir_pastas, listar_arquivos, salvar_json
+from ui.widgets import BGAPad, criar_painel_lateral
 from utils.bga_utils import (
     BANCO_PADRAO,
     checar_area_vazia,
@@ -32,7 +22,7 @@ from utils.bga_utils import (
     normalizar_banco,
 )
 from utils.config import DATA_DIR, DEFAULT_DATABASE, EXCEL_DIR, ICON_PATH
-from utils.styles import BTN_STYLE, COLORS, COMBO_STYLE
+from utils.styles import COLORS
 
 
 class BGAVisualizer(QMainWindow):
@@ -59,20 +49,6 @@ class BGAVisualizer(QMainWindow):
         alvo = caminho or self.arquivo_atual
         return normalizar_banco(carregar_json(alvo, BANCO_PADRAO.copy()))
 
-    def create_card(self, title):
-        frame = QFrame()
-        frame.setStyleSheet(
-            f"background: {COLORS['CARD']}; border: 1px solid #2A2A2A; border-radius: 6px;"
-        )
-        layout = QVBoxLayout(frame)
-        layout.setContentsMargins(12, 12, 12, 12)
-        layout.setSpacing(8)
-        if title:
-            label = QLabel(title)
-            label.setStyleSheet("color: #555; font-size: 10px; font-weight: bold; letter-spacing: 1px;")
-            layout.addWidget(label)
-        return frame, layout
-
     def init_ui(self):
         central = QWidget()
         self.setCentralWidget(central)
@@ -89,66 +65,7 @@ class BGAVisualizer(QMainWindow):
         self.scroll.setWidget(self.grid_widget)
         main_layout.addWidget(self.scroll, 4)
 
-        side = QVBoxLayout()
-        side.setSpacing(12)
-
-        c_arq, l_arq = self.create_card("PROJETOS & IMPORTAÇÃO")
-        self.combo_json = QComboBox()
-        self.combo_json.setStyleSheet(COMBO_STYLE)
-        btn_abrir = QPushButton("CARREGAR JSON")
-        btn_abrir.setStyleSheet(BTN_STYLE)
-        btn_abrir.clicked.connect(self.abrir_projeto_json)
-        self.combo_excel = QComboBox()
-        self.combo_excel.setStyleSheet(COMBO_STYLE)
-        btn_import = QPushButton("IMPORTAR EXCEL")
-        btn_import.setStyleSheet("QPushButton { background: #301934; color: #DDA0DD; border: 1px solid #4B0082; padding: 6px; border-radius: 3px; } QPushButton:hover { background: #4B0082; }")
-        btn_import.clicked.connect(self.executar_mapeamento_completo)
-        for widget in [self.combo_json, btn_abrir, self.combo_excel, btn_import]:
-            l_arq.addWidget(widget)
-        side.addWidget(c_arq)
-
-        c_bus, l_bus = self.create_card("FILTRAGEM DE BARRAMENTO")
-        self.edit_busca = QLineEdit()
-        self.edit_busca.setPlaceholderText("Filtrar sinais...")
-        self.edit_busca.setStyleSheet("background: #000; color: #00FF41; border: 1px solid #333; padding: 6px; font-family: monospace;")
-        self.edit_busca.textChanged.connect(self.filtrar_lista)
-        self.lista_sinais = QListWidget()
-        self.lista_sinais.setFixedHeight(140)
-        self.lista_sinais.setStyleSheet("background: #0A0A0A; color: #ACC; border: none; font-size: 11px;")
-        self.lista_sinais.itemClicked.connect(self.destacar_sinal_lista)
-        l_bus.addWidget(self.edit_busca)
-        l_bus.addWidget(self.lista_sinais)
-        side.addWidget(c_bus)
-
-        c_edit, l_edit = self.create_card("PROPRIEDADES DO PAD")
-        self.label_pad = QLabel("ID: --")
-        self.label_pad.setStyleSheet(f"color: {COLORS['TEXT']}; font-family: monospace; font-size: 16px; font-weight: bold;")
-        self.edit_sinal = QTextEdit()
-        self.edit_sinal.setFixedHeight(120)
-        self.edit_sinal.setStyleSheet(f"font-size: 13px; color: {COLORS['ACCENT']}; background: #000; border: 1px solid #222; font-family: 'Consolas', monospace; padding: 5px;")
-        l_edit.addWidget(self.label_pad)
-        l_edit.addWidget(self.edit_sinal)
-        side.addWidget(c_edit)
-
-        c_utl, l_utl = self.create_card("VISTA DO COMPONENTE")
-        self.chk_view = QCheckBox("MODO TOP VIEW")
-        self.chk_view.setStyleSheet("color: #888; font-size: 10px; font-weight: bold;")
-        self.chk_view.toggled.connect(self.trocar_vista)
-        self.btn_vazio = QPushButton("ISOLAR ÁREA VAZIA")
-        self.btn_vazio.setCheckable(True)
-        self.btn_vazio.setStyleSheet(BTN_STYLE)
-        self.btn_vazio.clicked.connect(self.toggle_modo_vazio)
-        l_utl.addWidget(self.chk_view)
-        l_utl.addWidget(self.btn_vazio)
-        side.addWidget(c_utl)
-
-        self.btn_salvar = QPushButton("SINCRONIZAR BANCO")
-        self.btn_salvar.setFixedHeight(45)
-        self.btn_salvar.setStyleSheet(f"QPushButton {{ background: #004488; color: white; font-weight: bold; border-radius: 4px; font-size: 11px; }} QPushButton:hover {{ background: #0055AA; }}")
-        self.btn_salvar.clicked.connect(self.salvar_anotacao)
-        side.addWidget(self.btn_salvar)
-        side.addStretch()
-        main_layout.addLayout(side, 1)
+        main_layout.addLayout(criar_painel_lateral(self), 1)
         self.setStyleSheet(f"background: {COLORS['BG']};")
 
     def ao_clicar_pad(self):
