@@ -4,7 +4,7 @@ Aplicativo em PyQt5 para visualizar, importar e editar mapeamentos de pinagem BG
 
 ## Screenshot
 
-![Tela principal do BGA Curve Mapper](assets/screenshoots/main_screen.png)
+<img src="assets/screenshoots/main_screen.png" alt="Tela principal do BGA Curve Mapper">
 
 ## Estrutura
 
