@@ -20,16 +20,17 @@ from PyQt5.QtWidgets import (
     QWidget,
 )
 
-from services.bga_service import (
+from services.excel_service import importar_excel
+from services.file_service import garantir_pastas, listar_arquivos
+from services.json_service import carregar_json, salvar_json
+from ui.widgets import BGAPad
+from utils.bga_utils import (
     BANCO_PADRAO,
     checar_area_vazia,
     criar_info_pad,
-    importar_excel,
     listar_sinais,
     normalizar_banco,
 )
-from services.file_service import carregar_json, garantir_pastas, listar_arquivos, salvar_json
-from ui.widgets import BGAPad
 from utils.config import DATA_DIR, DEFAULT_DATABASE, EXCEL_DIR, ICON_PATH
 from utils.styles import BTN_STYLE, COLORS, COMBO_STYLE
 
