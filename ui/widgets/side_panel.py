@@ -41,7 +41,9 @@ def criar_painel_lateral(janela):
     janela.combo_excel = QComboBox()
     janela.combo_excel.setStyleSheet(COMBO_STYLE)
     btn_import = QPushButton("IMPORTAR EXCEL")
-    btn_import.setStyleSheet("QPushButton { background: #301934; color: #DDA0DD; border: 1px solid #4B0082; padding: 6px; border-radius: 3px; } QPushButton:hover { background: #4B0082; }")
+    btn_import.setStyleSheet(
+        "QPushButton { background: #301934; color: #DDA0DD; border: 1px solid #4B0082; padding: 6px; border-radius: 3px; } QPushButton:hover { background: #4B0082; }"
+    )
     btn_import.clicked.connect(janela.executar_mapeamento_completo)
     for widget in [janela.combo_json, btn_abrir, janela.combo_excel, btn_import]:
         l_arq.addWidget(widget)
@@ -50,11 +52,15 @@ def criar_painel_lateral(janela):
     c_bus, l_bus = criar_card("FILTRAGEM DE BARRAMENTO")
     janela.edit_busca = QLineEdit()
     janela.edit_busca.setPlaceholderText("Filtrar sinais...")
-    janela.edit_busca.setStyleSheet("background: #000; color: #00FF41; border: 1px solid #333; padding: 6px; font-family: monospace;")
+    janela.edit_busca.setStyleSheet(
+        "background: #000; color: #00FF41; border: 1px solid #333; padding: 6px; font-family: monospace;"
+    )
     janela.edit_busca.textChanged.connect(janela.filtrar_lista)
     janela.lista_sinais = QListWidget()
     janela.lista_sinais.setFixedHeight(140)
-    janela.lista_sinais.setStyleSheet("background: #0A0A0A; color: #ACC; border: none; font-size: 11px;")
+    janela.lista_sinais.setStyleSheet(
+        "background: #0A0A0A; color: #ACC; border: none; font-size: 11px;"
+    )
     janela.lista_sinais.itemClicked.connect(janela.destacar_sinal_lista)
     l_bus.addWidget(janela.edit_busca)
     l_bus.addWidget(janela.lista_sinais)
@@ -62,10 +68,14 @@ def criar_painel_lateral(janela):
 
     c_edit, l_edit = criar_card("PROPRIEDADES DO PAD")
     janela.label_pad = QLabel("ID: --")
-    janela.label_pad.setStyleSheet(f"color: {COLORS['TEXT']}; font-family: monospace; font-size: 16px; font-weight: bold;")
+    janela.label_pad.setStyleSheet(
+        f"color: {COLORS['TEXT']}; font-family: monospace; font-size: 16px; font-weight: bold;"
+    )
     janela.edit_sinal = QTextEdit()
     janela.edit_sinal.setFixedHeight(120)
-    janela.edit_sinal.setStyleSheet(f"font-size: 13px; color: {COLORS['ACCENT']}; background: #000; border: 1px solid #222; font-family: 'Consolas', monospace; padding: 5px;")
+    janela.edit_sinal.setStyleSheet(
+        f"font-size: 13px; color: {COLORS['ACCENT']}; background: #000; border: 1px solid #222; font-family: 'Consolas', monospace; padding: 5px;"
+    )
     l_edit.addWidget(janela.label_pad)
     l_edit.addWidget(janela.edit_sinal)
     side.addWidget(c_edit)
@@ -84,9 +94,10 @@ def criar_painel_lateral(janela):
 
     janela.btn_salvar = QPushButton("SINCRONIZAR BANCO")
     janela.btn_salvar.setFixedHeight(45)
-    janela.btn_salvar.setStyleSheet(f"QPushButton {{ background: #004488; color: white; font-weight: bold; border-radius: 4px; font-size: 11px; }} QPushButton:hover {{ background: #0055AA; }}")
+    janela.btn_salvar.setStyleSheet(
+        "QPushButton { background: #004488; color: white; font-weight: bold; border-radius: 4px; font-size: 11px; } QPushButton:hover { background: #0055AA; }"
+    )
     janela.btn_salvar.clicked.connect(janela.salvar_anotacao)
     side.addWidget(janela.btn_salvar)
     side.addStretch()
     return side
-

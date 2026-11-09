@@ -1,6 +1,5 @@
 import os
 
-
 DATA_DIR = "data"
 EXCEL_DIR = "excels"
 ASSETS_DIR = "assets"

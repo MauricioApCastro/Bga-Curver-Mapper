@@ -76,7 +76,9 @@ class BGAVisualizer(QMainWindow):
                 self.btn_vazio.setText("SELECIONE O FIM")
             else:
                 self.dados["chip_config"].setdefault("vazio", [])
-                self.dados["chip_config"]["vazio"].append({"p1": self.ponto_clicado_1, "p2": pad.coord})
+                self.dados["chip_config"]["vazio"].append(
+                    {"p1": self.ponto_clicado_1, "p2": pad.coord}
+                )
                 self.ponto_clicado_1 = None
                 self.btn_vazio.setText("ÁREA OK! PRÓXIMA?")
                 self.atualizar_grid()

@@ -2,7 +2,6 @@ import re
 
 from models.pad_model import PadModel
 
-
 BANCO_PADRAO = {
     "chip_config": {"colunas": 26, "letras": [], "vazio": []},
     "pinagem": {},
@@ -57,8 +56,6 @@ def checar_area_vazia(coord, lista_vazios, lista_letras):
 
 
 def listar_sinais(dados):
-    return sorted({
-        pad.get("sinal", "NC")
-        for pad in dados["pinagem"].values()
-        if pad.get("sinal") != "NC"
-    })
+    return sorted(
+        {pad.get("sinal", "NC") for pad in dados["pinagem"].values() if pad.get("sinal") != "NC"}
+    )

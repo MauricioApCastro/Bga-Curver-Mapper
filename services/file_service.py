@@ -11,16 +11,13 @@ def garantir_pastas(*pastas):
 def listar_arquivos(pasta, extensao):
     if not os.path.exists(pasta):
         return []
-    return [
-        nome for nome in os.listdir(pasta)
-        if nome.lower().endswith(extensao.lower())
-    ]
+    return [nome for nome in os.listdir(pasta) if nome.lower().endswith(extensao.lower())]
 
 
 def carregar_json(caminho, padrao=None):
     if os.path.exists(caminho):
         try:
-            with open(caminho, "r", encoding="utf-8") as arquivo:
+            with open(caminho, encoding="utf-8") as arquivo:
                 return json.load(arquivo)
         except Exception:
             pass

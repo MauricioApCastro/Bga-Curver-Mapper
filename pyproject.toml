@@ -1,0 +1,29 @@
+[project]
+name = "bga-curve-mapper"
+version = "1.0.0"
+description = "Visualização e edição de mapeamentos de pinos BGA para análise eletrônica"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Maurício Castro", email = "contato@mactecnology.com.br" }]
+dependencies = [
+    "PyQt5>=5.15",
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+]
+
+[project.urls]
+Homepage = "https://mactecnology.com.br"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+extend-exclude = ["*.spec", "build", "dist"]
+
+[tool.ruff.lint]
+# E/W: estilo PEP 8 · F: erros reais (pyflakes) · I: ordem de imports
+# B: armadilhas comuns (bugbear) · UP: sintaxe moderna
+select = ["E", "W", "F", "I", "B", "UP"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

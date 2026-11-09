@@ -29,4 +29,3 @@ class PulseIcon(QWidget):
         pos_x = (self.width() - self.pixmap.width()) // 2
         pos_y = (self.height() - self.pixmap.height()) // 2
         painter.drawPixmap(pos_x, pos_y, self.pixmap)
-

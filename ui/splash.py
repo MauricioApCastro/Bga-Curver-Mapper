@@ -23,7 +23,9 @@ def mostrar_splash(app):
     splash_layout.addWidget(pulse_icon, 0, Qt.AlignCenter)
 
     label_title = QLabel("BGA CURVE MAPPER")
-    label_title.setStyleSheet(f"color: {COLORS['ACCENT']}; font-size: 42px; font-weight: bold; font-family: 'Segoe UI', sans-serif; letter-spacing: 4px;")
+    label_title.setStyleSheet(
+        f"color: {COLORS['ACCENT']}; font-size: 42px; font-weight: bold; font-family: 'Segoe UI', sans-serif; letter-spacing: 4px;"
+    )
     label_title.setAlignment(Qt.AlignCenter)
     splash_layout.addWidget(label_title)
 
@@ -33,7 +35,7 @@ def mostrar_splash(app):
     progress = QProgressBar()
     progress.setStyleSheet(f"""
         QProgressBar {{ border: 1px solid #222; background-color: #111; height: 6px; border-radius: 3px; }}
-        QProgressBar::chunk {{ background-color: {COLORS['ACCENT']}; border-radius: 3px; }}
+        QProgressBar::chunk {{ background-color: {COLORS["ACCENT"]}; border-radius: 3px; }}
     """)
     progress.setRange(0, 100)
     progress.setFormat("")
