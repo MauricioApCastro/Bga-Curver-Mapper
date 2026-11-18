@@ -39,7 +39,7 @@ ESTILO_DIALOGO = (
 def _ler_texto(caminho):
     for codificacao in ("utf-8-sig", "cp1252"):
         try:
-            with open(caminho, "r", encoding=codificacao) as arquivo:
+            with open(caminho, encoding=codificacao) as arquivo:
                 return arquivo.read()
         except UnicodeDecodeError:
             continue
@@ -162,7 +162,9 @@ def mostrar_suporte(parent):
 
     linha1 = QHBoxLayout()
     linha1.addWidget(dialogo.botao("Copiar informacoes", copiar))
-    linha1.addWidget(dialogo.botao("Abrir pasta de arquivos", lambda: _abrir_caminho(dialogo, USER_FILES_DIR)))
+    linha1.addWidget(
+        dialogo.botao("Abrir pasta de arquivos", lambda: _abrir_caminho(dialogo, USER_FILES_DIR))
+    )
     dialogo.layout_principal.addLayout(linha1)
 
     linha2 = QHBoxLayout()

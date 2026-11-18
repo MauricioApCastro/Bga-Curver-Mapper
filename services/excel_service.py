@@ -24,7 +24,9 @@ def importar_excel(caminho):
         maior_coluna = max(maior_coluna, int(match.group(2)))
 
     if not pinagem:
-        raise ValueError("Nenhuma coordenada BGA valida (ex: A1) encontrada na primeira coluna da planilha.")
+        raise ValueError(
+            "Nenhuma coordenada BGA valida (ex: A1) encontrada na primeira coluna da planilha."
+        )
 
     return {
         "chip_config": {

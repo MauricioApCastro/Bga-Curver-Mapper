@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import os
 import sys
 import unittest
@@ -10,14 +9,14 @@ PROJ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, PROJ)
 os.chdir(PROJ)
 
-from PyQt5.QtWidgets import QApplication, QPushButton, QDialog, QLabel
+from PyQt5.QtWidgets import QApplication, QDialog, QLabel, QPushButton
 
 app = QApplication.instance()
 if app is None:
     app = QApplication(sys.argv)
 
-import ui.main_window as mw
 import ui.criar_bga_dialog as cbd
+import ui.main_window as mw
 
 
 class TestRegressaoBugsCorrigidos(unittest.TestCase):
@@ -40,7 +39,7 @@ class TestRegressaoBugsCorrigidos(unittest.TestCase):
         """Garante sugestão automática e sanitização de nomes inválidos."""
         self.assertEqual(cbd.nome_padrao(676, 26), "bga_vazio_676p_26x26")
         self.assertEqual(cbd.sanitizar_nome("Meu BGA / teste.json"), "Meu BGA _ teste")
-        self.assertEqual(cbd.sanitizar_nome('chip<>teste'), "chip__teste")
+        self.assertEqual(cbd.sanitizar_nome("chip<>teste"), "chip__teste")
 
     def test_reg03_mensagem_projeto_criado_legivel(self):
         """Garante que 'Projeto criado' use ui.mensagens.mostrar (texto visível)."""
@@ -52,6 +51,7 @@ class TestRegressaoBugsCorrigidos(unittest.TestCase):
         original = mw.mostrar
         mw.mostrar = fake_mostrar
         try:
+
             class FakeDialog:
                 def __init__(self, parent=None):
                     pass
@@ -94,8 +94,13 @@ class TestRegressaoBugsCorrigidos(unittest.TestCase):
     def test_reg06_espacamento_entre_importar_e_criar(self):
         """Garante maior espaçamento entre 'IMPORTAR EXCEL' e 'CRIAR BGA VAZIO'."""
         btn_importar = self.w.edit_busca_excel
-        btn_criar = [b for b in self.w.findChildren(QPushButton) if b.text() == "CRIAR BGA VAZIO"][0]
-        gap = btn_criar.mapTo(self.w, btn_criar.rect().topLeft()).y() - btn_importar.mapTo(self.w, btn_importar.rect().bottomLeft()).y()
+        btn_criar = [b for b in self.w.findChildren(QPushButton) if b.text() == "CRIAR BGA VAZIO"][
+            0
+        ]
+        gap = (
+            btn_criar.mapTo(self.w, btn_criar.rect().topLeft()).y()
+            - btn_importar.mapTo(self.w, btn_importar.rect().bottomLeft()).y()
+        )
         self.assertGreaterEqual(gap, 8, f"Espaçamento insuficiente: {gap}px")
 
     def test_reg07_botao_voltar_ao_lado_pronto_proxima(self):

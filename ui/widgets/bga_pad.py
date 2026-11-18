@@ -74,7 +74,7 @@ class BGAPad(QPushButton):
                     border: {border}; border-radius: {raio}px;
                     font-size: {fonte}px; font-weight: bold;
                 }}
-                QPushButton:hover {{ background-color: white; color: black; border: 2px solid {COLORS['ACCENT']}; }}
+                QPushButton:hover {{ background-color: white; color: black; border: 2px solid {COLORS["ACCENT"]}; }}
             """)
         except RuntimeError:
             pass

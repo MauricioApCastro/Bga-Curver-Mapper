@@ -27,7 +27,8 @@ def listar_arquivos(pasta, extensao):
     if not os.path.exists(pasta):
         return []
     arquivos = [
-        nome for nome in os.listdir(pasta)
+        nome
+        for nome in os.listdir(pasta)
         if os.path.isfile(os.path.join(pasta, nome)) and nome.lower().endswith(extensao.lower())
     ]
     return sorted(arquivos, key=str.lower)
@@ -37,7 +38,7 @@ def carregar_json(caminho, padrao=None):
     if not os.path.exists(caminho):
         return padrao
     try:
-        with open(caminho, "r", encoding="utf-8") as arquivo:
+        with open(caminho, encoding="utf-8") as arquivo:
             return json.load(arquivo)
     except json.JSONDecodeError as exc:
         raise FileServiceError(f"JSON invalido: {os.path.basename(caminho)}") from exc

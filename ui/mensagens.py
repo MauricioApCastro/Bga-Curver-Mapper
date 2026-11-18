@@ -5,8 +5,8 @@ from utils.styles import COLORS
 
 def _estilo():
     return f"""
-        QMessageBox {{ background: {COLORS['CARD']}; }}
-        QMessageBox QLabel {{ color: {COLORS['TEXT']}; font-size: 12px; }}
+        QMessageBox {{ background: {COLORS["CARD"]}; }}
+        QMessageBox QLabel {{ color: {COLORS["TEXT"]}; font-size: 12px; }}
         QMessageBox QPushButton {{
             background: #252525; color: #EEE; border: 1px solid #333;
             padding: 6px 16px; border-radius: 3px; font-size: 11px;

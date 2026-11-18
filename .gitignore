@@ -1,3 +1,44 @@
+# --- Padrão MAC Tecnology ---
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Build (PyInstaller) — publique executáveis em Releases, não no repositório
+build/
+dist/
+*.exe
+
+# Segredos e credenciais — nunca versionar
+.env
+*.env
+credentials*.json
+client_secret*.json
+token*.json
+*.pem
+*.key
+
+# Logs e dados locais
+*.log
+*.sqlite3
+*.db
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# --- Regras específicas do projeto ---
 # Banco de dados
 data/*.json
 
@@ -16,3 +57,13 @@ dist/
 
 # Ambiente virtual
 venv/
+
+# Material local de licenciamento e artefatos de release (nunca versionar)
+backup_licenciamento/
+license/
+license_keys/
+tools/
+release/
+assets/license_public_key.pem
+BGA_Mapper_icon.spec
+assets/dp83848vyb.pdf

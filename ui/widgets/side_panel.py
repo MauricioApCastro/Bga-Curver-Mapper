@@ -1,22 +1,20 @@
 from PyQt5.QtCore import QSize, Qt
 from PyQt5.QtGui import QColor, QIcon, QPainter, QPixmap
 from PyQt5.QtWidgets import (
-    QScrollArea,
     QCheckBox,
-    QComboBox,
     QFrame,
-    QGridLayout,
     QHBoxLayout,
     QLabel,
     QLineEdit,
     QListWidget,
     QPushButton,
+    QScrollArea,
     QTextEdit,
     QVBoxLayout,
     QWidget,
 )
 
-from utils.styles import BTN_STYLE, COLORS, COMBO_STYLE, LEGENDA_TIPOS
+from utils.styles import BTN_STYLE, COLORS, LEGENDA_TIPOS
 
 
 def criar_card(title):
@@ -86,14 +84,18 @@ def criar_painel_lateral(janela):
 
     def rotulo(texto):
         lbl = QLabel(texto)
-        lbl.setStyleSheet("color: #777; font-size: 9px; font-weight: bold; border: none; background: transparent;")
+        lbl.setStyleSheet(
+            "color: #777; font-size: 9px; font-weight: bold; border: none; background: transparent;"
+        )
         return lbl
 
     janela.edit_busca_json = QLineEdit()
     janela.edit_busca_json.setPlaceholderText("Digite o codigo do BGA...")
     janela.edit_busca_json.setClearButtonEnabled(True)
     janela.edit_busca_json.setFixedHeight(32)
-    janela.edit_busca_json.setStyleSheet("background: #000; color: #00FF41; border: 1px solid #333; padding: 4px 6px; font-family: monospace;")
+    janela.edit_busca_json.setStyleSheet(
+        "background: #000; color: #00FF41; border: 1px solid #333; padding: 4px 6px; font-family: monospace;"
+    )
     janela.edit_busca_json.textChanged.connect(janela.filtrar_json)
     janela.edit_busca_json.returnPressed.connect(janela.abrir_primeiro_json_filtrado)
     janela.lista_json = QListWidget()
@@ -137,11 +139,15 @@ def criar_painel_lateral(janela):
     c_bus, l_bus = criar_card("FILTRAGEM DE SINAIS")
     janela.edit_busca = QLineEdit()
     janela.edit_busca.setPlaceholderText("Filtrar sinais...")
-    janela.edit_busca.setStyleSheet("background: #000; color: #00FF41; border: 1px solid #333; padding: 6px; font-family: monospace;")
+    janela.edit_busca.setStyleSheet(
+        "background: #000; color: #00FF41; border: 1px solid #333; padding: 6px; font-family: monospace;"
+    )
     janela.edit_busca.textChanged.connect(janela.filtrar_lista)
     janela.lista_sinais = QListWidget()
     janela.lista_sinais.setFixedHeight(110)
-    janela.lista_sinais.setStyleSheet("background: #0A0A0A; color: #ACC; border: none; font-size: 11px;")
+    janela.lista_sinais.setStyleSheet(
+        "background: #0A0A0A; color: #ACC; border: none; font-size: 11px;"
+    )
     janela.lista_sinais.itemClicked.connect(janela.destacar_sinal_lista)
     l_bus.addWidget(janela.edit_busca)
     l_bus.addWidget(janela.lista_sinais)
@@ -149,11 +155,15 @@ def criar_painel_lateral(janela):
 
     c_edit, l_edit = criar_card("PROPRIEDADES DO PAD")
     janela.label_pad = QLabel("")
-    janela.label_pad.setStyleSheet(f"color: {COLORS['TEXT']}; font-family: monospace; font-size: 16px; font-weight: bold;")
+    janela.label_pad.setStyleSheet(
+        f"color: {COLORS['TEXT']}; font-family: monospace; font-size: 16px; font-weight: bold;"
+    )
     janela.edit_sinal = QTextEdit()
     janela.edit_sinal.setFixedHeight(90)
     janela.edit_sinal.textChanged.connect(janela.ao_editar_sinal)
-    janela.edit_sinal.setStyleSheet(f"font-size: 13px; color: {COLORS['ACCENT']}; background: #000; border: 1px solid #222; font-family: 'Consolas', monospace; padding: 5px;")
+    janela.edit_sinal.setStyleSheet(
+        f"font-size: 13px; color: {COLORS['ACCENT']}; background: #000; border: 1px solid #222; font-family: 'Consolas', monospace; padding: 5px;"
+    )
     l_edit.addWidget(janela.label_pad)
     l_edit.addWidget(janela.edit_sinal)
     side.addWidget(c_edit)

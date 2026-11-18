@@ -70,11 +70,13 @@ def checar_area_vazia(coord, lista_vazios, lista_letras):
 
 
 def listar_sinais(dados):
-    return sorted({
-        pad.get("sinal", "")
-        for pad in dados["pinagem"].values()
-        if pad.get("sinal", "") not in ("", "NC")
-    })
+    return sorted(
+        {
+            pad.get("sinal", "")
+            for pad in dados["pinagem"].values()
+            if pad.get("sinal", "") not in ("", "NC")
+        }
+    )
 
 
 def indice_para_letra(indice):
@@ -111,10 +113,12 @@ def criar_banco_vazio(total_pinos, colunas):
     if total_pinos < posicoes:
         primeira_sobra = total_pinos
         ultima_sobra = posicoes - 1
-        vazio.append({
-            "p1": f"{letras[primeira_sobra // colunas]}{(primeira_sobra % colunas) + 1}",
-            "p2": f"{letras[ultima_sobra // colunas]}{(ultima_sobra % colunas) + 1}",
-        })
+        vazio.append(
+            {
+                "p1": f"{letras[primeira_sobra // colunas]}{(primeira_sobra % colunas) + 1}",
+                "p2": f"{letras[ultima_sobra // colunas]}{(ultima_sobra % colunas) + 1}",
+            }
+        )
 
     return {
         "chip_config": {"colunas": colunas, "letras": letras, "vazio": vazio},

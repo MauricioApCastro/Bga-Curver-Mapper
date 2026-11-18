@@ -9,21 +9,23 @@ PROJ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, PROJ)
 os.chdir(PROJ)
 
-from PyQt5.QtWidgets import QApplication, QPushButton, QDialog
+from PyQt5.QtWidgets import QApplication, QDialog, QPushButton
 
 app = QApplication.instance()
 if app is None:
     app = QApplication(sys.argv)
 
-import ui.main_window as mw
 import ui.criar_bga_dialog as cbd
-
+import ui.main_window as mw
 
 
 class TestCriarBgaDialog(unittest.TestCase):
     def test_labels_visiveis(self):
         d = cbd.CriarBgaDialog()
-        textos = [l.text() for l in d.findChildren(__import__('PyQt5.QtWidgets', fromlist=['QLabel']).QLabel)]
+        textos = [
+            rotulo.text()
+            for rotulo in d.findChildren(__import__("PyQt5.QtWidgets", fromlist=["QLabel"]).QLabel)
+        ]
         self.assertIn("Linhas:", textos)
         self.assertIn("Colunas:", textos)
         self.assertIn("Nome do BGA:", textos)
@@ -37,10 +39,11 @@ class TestCriarBgaDialog(unittest.TestCase):
 
     def test_sanitizar(self):
         self.assertEqual(cbd.sanitizar_nome("Meu BGA / teste.json"), "Meu BGA _ teste")
-        self.assertEqual(cbd.sanitizar_nome('a<>b'), "a__b")
+        self.assertEqual(cbd.sanitizar_nome("a<>b"), "a__b")
 
     def test_validacao_nome_vazio(self):
         import ui.criar_bga_dialog as cbd_mod
+
         orig = cbd_mod.mostrar
         cbd_mod.mostrar = lambda *a, **k: None
         try:
@@ -50,7 +53,6 @@ class TestCriarBgaDialog(unittest.TestCase):
             self.assertIsNone(d.total_pinos)
         finally:
             cbd_mod.mostrar = orig
-
 
 
 class TestPainelLateral(unittest.TestCase):
@@ -73,8 +75,13 @@ class TestPainelLateral(unittest.TestCase):
 
     def test_espacamento_importar_criar(self):
         btn_import = self.w.edit_busca_excel
-        btn_criar = [b for b in self.w.findChildren(QPushButton) if b.text() == "CRIAR BGA VAZIO"][0]
-        gap = btn_criar.mapTo(self.w, btn_criar.rect().topLeft()).y() - btn_import.mapTo(self.w, btn_import.rect().bottomLeft()).y()
+        btn_criar = [b for b in self.w.findChildren(QPushButton) if b.text() == "CRIAR BGA VAZIO"][
+            0
+        ]
+        gap = (
+            btn_criar.mapTo(self.w, btn_criar.rect().topLeft()).y()
+            - btn_import.mapTo(self.w, btn_import.rect().bottomLeft()).y()
+        )
         self.assertGreaterEqual(gap, 8)
 
     def test_voltar_habilitado_modo_vazio(self):
@@ -116,11 +123,14 @@ class TestPainelLateral(unittest.TestCase):
         original = mw.mostrar
         mw.mostrar = fake_mostrar
         try:
+
             class FakeDialog:
                 def __init__(self, parent=None):
                     pass
+
                 def exec_(self):
                     return QDialog.Accepted
+
                 def get_values(self):
                     return (16, 4, "teste_auto_bga")
 

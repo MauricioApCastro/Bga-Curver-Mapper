@@ -1,13 +1,13 @@
 import os
 
-from PyQt5.QtCore import QEasingCurve, QEvent, QPoint, QVariantAnimation, Qt, QTimer
-from PyQt5.QtGui import QIcon, QTransform
+from PyQt5.QtCore import QEasingCurve, QEvent, Qt, QTimer, QVariantAnimation
+from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import (
+    QAction,
+    QApplication,
     QDialog,
     QGridLayout,
     QHBoxLayout,
-    QAction,
-    QApplication,
     QMainWindow,
     QMessageBox,
     QScrollArea,
@@ -15,6 +15,7 @@ from PyQt5.QtWidgets import (
     QWidget,
 )
 
+from models.pad_model import identificar_tipo_sinal
 from services.excel_service import importar_excel
 from services.file_service import (
     FileServiceError,
@@ -37,7 +38,6 @@ from utils.bga_utils import (
     listar_sinais,
     normalizar_banco,
 )
-from models.pad_model import identificar_tipo_sinal
 from utils.config import DATA_DIR, EXCEL_DIR, ICON_PATH
 from utils.styles import COLORS
 
@@ -186,7 +186,9 @@ class BGAVisualizer(QMainWindow):
                 self.btn_vazio.setText("SELECIONE O FIM")
             else:
                 self.dados["chip_config"].setdefault("vazio", [])
-                self.dados["chip_config"]["vazio"].append({"p1": self.ponto_clicado_1, "p2": pad.coord})
+                self.dados["chip_config"]["vazio"].append(
+                    {"p1": self.ponto_clicado_1, "p2": pad.coord}
+                )
                 self.definir_alterado(True)
                 self.ponto_clicado_1 = None
                 self.btn_vazio.setText("PRONTO OU PROXIMA?")
@@ -247,7 +249,9 @@ class BGAVisualizer(QMainWindow):
             self.grupo.discard(pad.coord)
             pad.agrupado = False
             pad.atualizar_estilo(selecionado=False)
-            restante = next((self.pads_objetos[c] for c in sorted(self.grupo) if c in self.pads_objetos), None)
+            restante = next(
+                (self.pads_objetos[c] for c in sorted(self.grupo) if c in self.pads_objetos), None
+            )
             if pad is self.pad_selecionado:
                 self._definir_principal(restante)
         else:
@@ -429,7 +433,11 @@ class BGAVisualizer(QMainWindow):
                 self,
                 "Alteracoes nao salvas",
                 "Existem alteracoes nao salvas. Deseja salvar antes de continuar?",
-                [("Salvar", QMessageBox.AcceptRole), ("Descartar", QMessageBox.DestructiveRole), ("Cancelar", QMessageBox.RejectRole)],
+                [
+                    ("Salvar", QMessageBox.AcceptRole),
+                    ("Descartar", QMessageBox.DestructiveRole),
+                    ("Cancelar", QMessageBox.RejectRole),
+                ],
                 padrao="Salvar",
             )
             if escolha == "Salvar":
@@ -607,16 +615,24 @@ class BGAVisualizer(QMainWindow):
             altura = conteudo_a + 10
         self.grid_widget.setMinimumSize(largura, altura)
         self.grid_widget.resize(largura, altura)
+
     def salvar_banco_atual(self):
         if not self.arquivo_atual:
             return
         salvar_json(self.arquivo_atual, self.dados)
         self.definir_alterado(False)
-        self.atualizar_listas(json_selecionado=os.path.basename(self.arquivo_atual), excel_selecionado=self.excel_atual)
+        self.atualizar_listas(
+            json_selecionado=os.path.basename(self.arquivo_atual),
+            excel_selecionado=self.excel_atual,
+        )
 
     def salvar_anotacao(self):
         if not self.arquivo_atual:
-            mostrar(self, "Salvar", "Abra um projeto, importe uma planilha ou crie um BGA vazio antes de salvar.")
+            mostrar(
+                self,
+                "Salvar",
+                "Abra um projeto, importe uma planilha ou crie um BGA vazio antes de salvar.",
+            )
             return
         if not self.pad_selecionado:
             self.salvar_banco_atual()

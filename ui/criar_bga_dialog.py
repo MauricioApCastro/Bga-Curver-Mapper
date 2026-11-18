@@ -1,4 +1,4 @@
-﻿import re
+import re
 
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (
@@ -12,8 +12,8 @@ from PyQt5.QtWidgets import (
     QVBoxLayout,
 )
 
-from utils.styles import BTN_STYLE, COLORS
 from ui.mensagens import mostrar
+from utils.styles import BTN_STYLE, COLORS
 
 LABEL_STYLE = f"color: {COLORS['TEXT']}; font-size: 12px;"
 INPUT_STYLE = (
@@ -68,9 +68,7 @@ class CriarBgaDialog(QDialog):
         layout.setSpacing(14)
 
         titulo = QLabel("Criar BGA vazio")
-        titulo.setStyleSheet(
-            f"color: {COLORS['ACCENT']}; font-size: 16px; font-weight: bold;"
-        )
+        titulo.setStyleSheet(f"color: {COLORS['ACCENT']}; font-size: 16px; font-weight: bold;")
         layout.addWidget(titulo)
 
         form = QFormLayout()
@@ -132,7 +130,6 @@ class CriarBgaDialog(QDialog):
             f"{self._total_pads()}  ({self.spin_linhas.value()} x {self.spin_colunas.value()})"
         )
 
-
     def _validar(self):
         nome = sanitizar_nome(self.edit_nome.text())
         if not nome:
@@ -153,4 +150,3 @@ class CriarBgaDialog(QDialog):
 
     def get_values(self):
         return self.total_pinos, self.colunas, self.nome
-

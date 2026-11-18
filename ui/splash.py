@@ -77,7 +77,7 @@ def mostrar_splash(app):
 
     label_title = QLabel("BGA Mapper")
     label_title.setStyleSheet(f"""
-        color: {COLORS['ACCENT']};
+        color: {COLORS["ACCENT"]};
         font-size: 72px;
         font-weight: 700;
         font-family: 'Segoe UI', sans-serif;
@@ -85,7 +85,9 @@ def mostrar_splash(app):
     label_title.setAlignment(Qt.AlignLeft)
     content_layout.addWidget(label_title)
 
-    label_subtitle = QLabel("Mapeamento visual de componentes BGA com leitura local de planilhas e projetos.")
+    label_subtitle = QLabel(
+        "Mapeamento visual de componentes BGA com leitura local de planilhas e projetos."
+    )
     label_subtitle.setWordWrap(True)
     label_subtitle.setStyleSheet("""
         color: #BBD1C7;
@@ -109,11 +111,15 @@ def mostrar_splash(app):
     status_layout.setSpacing(12)
 
     status_header = QLabel("STATUS")
-    status_header.setStyleSheet("color: #5F7D70; font-size: 15px; font-family: 'Consolas', monospace;")
+    status_header.setStyleSheet(
+        "color: #5F7D70; font-size: 15px; font-family: 'Consolas', monospace;"
+    )
     status_layout.addWidget(status_header)
 
     label_status = QLabel("Preparando interface...")
-    label_status.setStyleSheet("color: #D7E8DF; font-size: 18px; font-family: 'Segoe UI', sans-serif;")
+    label_status.setStyleSheet(
+        "color: #D7E8DF; font-size: 18px; font-family: 'Segoe UI', sans-serif;"
+    )
     status_layout.addWidget(label_status)
 
     progress_container = QWidget()
@@ -124,7 +130,9 @@ def mostrar_splash(app):
     progress_meta = QHBoxLayout()
     progress_meta.setContentsMargins(0, 0, 0, 0)
     label_progress = QLabel("0%")
-    label_progress.setStyleSheet(f"color: {COLORS['ACCENT']}; font-size: 15px; font-family: 'Consolas', monospace;")
+    label_progress.setStyleSheet(
+        f"color: {COLORS['ACCENT']}; font-size: 15px; font-family: 'Consolas', monospace;"
+    )
     label_progress.setAlignment(Qt.AlignRight)
     progress_meta.addStretch()
     progress_meta.addWidget(label_progress)
@@ -143,7 +151,7 @@ def mostrar_splash(app):
             background: qlineargradient(
                 x1: 0, y1: 0, x2: 1, y2: 0,
                 stop: 0 #00A2FF,
-                stop: 0.5 {COLORS['ACCENT']},
+                stop: 0.5 {COLORS["ACCENT"]},
                 stop: 1 #D7FF5F
             );
             border-radius: 6px;
@@ -156,7 +164,9 @@ def mostrar_splash(app):
     content_layout.addWidget(status_box)
 
     label_footer = QLabel("Banco local | Excel | Visualizador BGA")
-    label_footer.setStyleSheet("color: #668478; font-size: 13px; font-family: 'Consolas', monospace;")
+    label_footer.setStyleSheet(
+        "color: #668478; font-size: 13px; font-family: 'Consolas', monospace;"
+    )
     label_footer.setAlignment(Qt.AlignLeft)
     content_layout.addWidget(label_footer)
 

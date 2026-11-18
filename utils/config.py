@@ -1,7 +1,6 @@
 import os
 import sys
 
-
 APP_NAME = "BGA Mapper"
 APP_VERSION = "1.1.1"
 

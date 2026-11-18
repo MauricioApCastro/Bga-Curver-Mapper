@@ -12,7 +12,7 @@ if (-not (Test-Path -LiteralPath ".\.venv")) {
 
 Write-Host "Instalando/atualizando dependências..."
 .\.venv\Scripts\python.exe -m pip install --upgrade pip
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m pip install -r requirements-dev.txt pyinstaller
 
 Write-Host "Limpando build anterior..."
 Remove-Item -LiteralPath "build" -Recurse -Force -ErrorAction SilentlyContinue
