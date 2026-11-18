@@ -1,18 +1,21 @@
 from PyQt5.QtCore import QEasingCurve, QPropertyAnimation
 from PyQt5.QtWidgets import QGraphicsOpacityEffect, QPushButton
 
-from models.pad_model import PadModel
+from models.pad_model import PadModel, identificar_tipo_sinal
 from utils.styles import COLORS
 
 
 class BGAPad(QPushButton):
-    def __init__(self, coord, info=None):
+    def __init__(self, coord, info=None, tamanho=28):
         super().__init__(coord)
         self.coord = coord
         self.info = info or PadModel().to_dict()
-        self.setFixedSize(28, 28)
+        self.tamanho = tamanho
+        self.setFixedSize(tamanho, tamanho)
         self.visivel = True
         self.destacado = False
+        self.esmaecido = False
+        self.agrupado = False
 
         self.efeito_opacidade = QGraphicsOpacityEffect(self)
         self.efeito_opacidade.setOpacity(1.0)
@@ -27,6 +30,11 @@ class BGAPad(QPushButton):
 
         self.atualizar_estilo()
 
+    def aplicar_tamanho(self, tamanho):
+        self.tamanho = tamanho
+        self.setFixedSize(tamanho, tamanho)
+        self.atualizar_estilo()
+
     def atualizar_estilo(self, selecionado=False):
         if not self:
             return
@@ -38,23 +46,33 @@ class BGAPad(QPushButton):
                 self.anim_piscar.stop()
                 return
 
-            cor_base = COLORS.get(self.info.get("tipo", "DEFAULT"), COLORS["DEFAULT"])
+            tipo = identificar_tipo_sinal(self.info.get("sinal", ""))
+            cor_base = COLORS.get(tipo, COLORS["DEFAULT"])
+            espessura = 3 if self.tamanho >= 16 else 1
 
             if selecionado:
-                border = f"3px solid {COLORS['ACCENT']}"
+                border = f"{espessura}px solid {COLORS['ACCENT']}"
                 if self.anim_piscar.state() != QPropertyAnimation.Running:
                     self.anim_piscar.start()
             else:
                 if self.anim_piscar.state() == QPropertyAnimation.Running:
                     self.anim_piscar.stop()
-                self.efeito_opacidade.setOpacity(1.0)
-                border = f"3px solid {COLORS['HIGHLIGHT']}" if self.destacado else "1px solid #333"
+                self.efeito_opacidade.setOpacity(0.18 if self.esmaecido else 1.0)
+                if self.agrupado:
+                    border = f"{espessura}px solid {COLORS['ACCENT']}"
+                elif self.destacado:
+                    border = f"{espessura}px solid {COLORS['HIGHLIGHT']}"
+                else:
+                    border = "1px solid #333"
+
+            raio = max(1, self.tamanho // 2)
+            fonte = max(4, min(7, self.tamanho // 4))
 
             self.setStyleSheet(f"""
                 QPushButton {{
                     background-color: {cor_base}; color: white;
-                    border: {border}; border-radius: 14px;
-                    font-size: 7px; font-weight: bold;
+                    border: {border}; border-radius: {raio}px;
+                    font-size: {fonte}px; font-weight: bold;
                 }}
                 QPushButton:hover {{ background-color: white; color: black; border: 2px solid {COLORS['ACCENT']}; }}
             """)

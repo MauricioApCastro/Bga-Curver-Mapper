@@ -1,0 +1,123 @@
+BGA Mapper - Guia de Uso
+========================
+
+1. Primeiros passos
+-------------------
+O BGA Mapper guarda seus arquivos em:
+  Documentos\BGA Mapper
+    data    -> projetos salvos (.json)
+    excels  -> planilhas para importação (.xlsm)
+
+O programa instalado fica em %LocalAppData%\Programs\BGA Mapper.
+
+
+2. Abrir um projeto
+-------------------
+1. No painel lateral, em ABRIR PROJETO, digite o código do BGA (ou parte do nome).
+2. A lista mostra todos os arquivos semelhantes. A busca ignora maiúsculas,
+   hífens, sublinhados e espaços.
+3. Clique no projeto desejado. Ele é carregado e o nome fica no campo de busca.
+   (Se sobrar só um resultado, Enter também abre.)
+
+
+3. Importar uma planilha Excel
+------------------------------
+1. Coloque a planilha (.xlsm) em Documentos\BGA Mapper\excels.
+2. A primeira coluna deve conter as coordenadas dos pads: A1, A2, B10, AA12...
+   As colunas seguintes podem trazer sinal, alimentação, terra ou observações.
+3. Em IMPORTAR PLANILHA, digite o nome e clique na planilha da lista.
+4. O mapa é montado na tela. Clique em SALVAR para gravar o projeto.
+   Se já existir um projeto com o mesmo nome, o programa avisa antes de importar.
+
+
+4. Criar um BGA vazio
+---------------------
+1. Clique em CRIAR BGA VAZIO.
+2. Informe o número de linhas e de colunas. O total de pads é calculado
+   automaticamente (limite de 10.000 pads).
+3. Dê um nome ao BGA. O projeto é criado e salvo na hora.
+Todos os pads começam como "Não definido".
+
+
+5. Mapear os pads
+-----------------
+- Clique em um pad: o ID aparece no painel e o campo de propriedades mostra
+  o conteúdo. Edite e clique em SALVAR.
+- A primeira linha do texto é o nome do sinal (ex.: GND, VDD_CORE, DDR_DQ0).
+  O tipo e a cor do pad são definidos automaticamente pelo nome.
+
+Selecionar vários pads com a mesma função:
+- Ctrl + clique: adiciona ou remove pads do grupo.
+- Shift + clique: seleciona todos os pads do retângulo entre o pad atual e o
+  clicado (ideal para blocos de GND ou VCC).
+- Digite o sinal e clique em SALVAR: ele é aplicado a todos os pads do grupo.
+- Um clique simples volta à seleção de um pad só.
+
+
+6. Botão SALVAR
+---------------
+- Verde: tudo salvo.
+- Laranja: há alterações não salvas.
+Ao abrir outro projeto, importar, criar um BGA ou fechar o programa com
+alterações pendentes, o BGA Mapper pergunta se você quer salvar.
+
+
+7. Cores e legenda
+------------------
+Na parte inferior da tela do BGA há a legenda dos tipos de pad:
+Power, GND, Clock, Reset, Addr, Dados, Ctrl, Não definido e NC.
+Clique em um item da legenda para mostrar apenas os pads daquele tipo
+(os demais ficam apagados). Clique de novo para limpar.
+
+
+8. Navegar no mapa
+------------------
+- Roda do mouse: zoom.
+  - Sem pad selecionado: aproxima no ponto onde está o cursor.
+  - Com um pad selecionado: aproxima e centraliza esse pad.
+- Arrastar com o botão esquerdo: move o mapa.
+- Ao abrir um projeto ou redimensionar a janela, o BGA é ajustado para
+  ocupar o máximo da tela, centralizado.
+
+
+9. Filtrar sinais
+-----------------
+1. Em FILTRAGEM DE SINAIS, digite parte do nome do sinal.
+2. Clique em um sinal da lista para destacar e localizar os pads dele.
+
+
+10. Top View e Bottom View
+--------------------------
+Use a opção MODO TOP VIEW / MODO BOTTOM VIEW para inverter o mapa conforme
+o lado de visualização do componente.
+
+
+11. Isolar área vazia
+---------------------
+1. Clique em ISOLAR AREA VAZIA.
+2. Clique no primeiro e no último pad da área.
+3. Repita para outras áreas, se necessário. VOLTAR desfaz a última marcação.
+4. Clique novamente no botão para finalizar e salvar.
+
+
+12. Problemas comuns
+--------------------
+A planilha não aparece na lista:
+- Confirme que está em Documentos\BGA Mapper\excels e que a extensão é .xlsm.
+
+O mapa abriu vazio ou deu erro ao importar:
+- Confirme que a primeira coluna tem coordenadas válidas (A1, B10, AA12...).
+
+Não consigo salvar:
+- Abra um projeto, importe uma planilha ou crie um BGA vazio antes.
+- Verifique se a pasta Documentos\BGA Mapper existe e se há espaço em disco.
+
+Um projeto não abre ("JSON inválido"):
+- O arquivo pode estar corrompido. O programa mantém o projeto atual sem alterá-lo.
+
+
+13. Ajuda e suporte
+-------------------
+No menu AJUDA você encontra este guia (F1), a tela de Suporte (com atalhos para
+a pasta de arquivos e o log, e um resumo técnico para enviar ao atendimento)
+e a tela Sobre.

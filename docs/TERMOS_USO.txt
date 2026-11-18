@@ -1,0 +1,25 @@
+BGA Mapper - Termos de Uso
+
+Ao instalar ou usar o BGA Mapper, o usuario concorda com estes termos.
+
+Uso permitido
+- Usar o BGA Mapper nos computadores do proprio usuario.
+- Criar, importar, editar e manter arquivos de mapeamento BGA de uso proprio ou profissional.
+- Manter copia de seguranca dos arquivos de trabalho criados pelo usuario.
+
+Restricoes
+- Nao redistribuir, revender ou alugar o software sem autorizacao do autor.
+- Nao praticar engenharia reversa, descompilacao ou modificacao do executavel, exceto quando permitido por lei aplicavel.
+- Nao usar o software para violar direitos de terceiros, normas tecnicas, contratos ou leis aplicaveis.
+
+Dados do usuario
+Os arquivos JSON, planilhas e projetos criados ou importados pelo usuario permanecem sob responsabilidade do usuario. Recomenda-se manter backup externo dos arquivos importantes.
+
+Garantia limitada
+O software e fornecido como ferramenta de apoio tecnico. O usuario deve revisar os resultados antes de aplica-los em reparo, projeto, diagnostico ou producao. O autor nao se responsabiliza por perdas decorrentes de uso inadequado, dados incorretos, falhas de equipamento, interrupcao de energia ou ausencia de backup.
+
+Suporte e atualizacoes
+Atualizacoes e suporte dependem das condicoes combinadas com o autor.
+
+Contato comercial
+contato.mactecnology@gmail.com

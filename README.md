@@ -98,13 +98,13 @@ src/
 ## Clone o projeto
 
 ```bash
-git clone https://github.com/MauricioApCastro/Bga-Curver-Mapper.git
+git clone <url-do-repositorio>
 ```
 
 ## Entre na pasta
 
 ```bash
-cd Bga-Curver-Mapper
+cd "Mapeador de BGA"
 ```
 
 ## Instale as dependências
@@ -116,7 +116,7 @@ pip install -r requirements.txt
 ## Execute
 
 ```bash
-python main.py
+python visualizador.py
 ```
 
 ---
@@ -133,16 +133,6 @@ python main.py
 
 ---
 
-# Autor
+# Contato
 
-Mauricio Castro
-
-Técnico eletrônico e desenvolvedor Python focado em:
-- software técnico
-- automação
-- eletrônica
-- interfaces desktop
-- integração hardware/software
-
-GitHub:
-https://github.com/MauricioApCastro
+contato.mactecnology@gmail.com

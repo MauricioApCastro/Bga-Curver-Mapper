@@ -1,0 +1,24 @@
+BGA Mapper - Politica de Privacidade
+
+Resumo
+O BGA Mapper e um aplicativo desktop. Por padrao, os arquivos de trabalho ficam no computador do usuario, na pasta Documentos\\BGA Mapper.
+
+Dados armazenados localmente
+- Arquivos JSON de bancos BGA em Documentos\\BGA Mapper\\data.
+- Planilhas Excel importadas ou usadas pelo usuario em Documentos\\BGA Mapper\\excels.
+- Log tecnico local em Documentos\\BGA Mapper\\bga_mapper.log.
+
+Finalidade
+Esses dados sao usados para abrir projetos, salvar mapeamentos e diagnosticar falhas tecnicas.
+
+Compartilhamento
+O aplicativo nao envia automaticamente arquivos de projeto, planilhas ou logs para o autor. Caso o usuario solicite suporte, pode optar por enviar manualmente arquivos necessarios ao atendimento.
+
+Seguranca
+O usuario deve proteger o computador, manter backup dos arquivos importantes.
+
+Retencao e exclusao
+O usuario pode remover projetos, planilhas e logs apagando os arquivos correspondentes na pasta Documentos\\BGA Mapper. A desinstalacao pode nao apagar automaticamente arquivos criados pelo usuario.
+
+Observacao
+Se uma versao futura integrar validacao online, plataforma de venda, telemetria ou suporte automatico, esta politica deve ser atualizada antes da distribuicao.
